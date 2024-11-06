@@ -1,0 +1,18 @@
+{
+	"BuildId": "33043543",
+	"Modules": 
+	{
+		"ClipboardImageExtension": "UnrealEditor-ClipboardImageExtension.dylib",
+		"DetailsPanelPrinter": "UnrealEditor-DetailsPanelPrinter.dylib",
+		"GenericGraphPrinter": "UnrealEditor-GenericGraphPrinter.dylib",
+		"GraphPrinterEditorExtension": "UnrealEditor-GraphPrinterEditorExtension.dylib",
+		"GraphPrinterGlobals": "UnrealEditor-GraphPrinterGlobals.dylib",
+		"GraphPrinterRemoteControl": "UnrealEditor-GraphPrinterRemoteControl.dylib",
+		"GraphPrinterStreamDeck": "UnrealEditor-GraphPrinterStreamDeck.dylib",
+		"MaterialGraphPrinter": "UnrealEditor-MaterialGraphPrinter.dylib",
+		"ReferenceViewerPrinter": "UnrealEditor-ReferenceViewerPrinter.dylib",
+		"TextChunkHelper": "UnrealEditor-TextChunkHelper.dylib",
+		"ViewportPrinter": "UnrealEditor-ViewportPrinter.dylib",
+		"WidgetPrinter": "UnrealEditor-WidgetPrinter.dylib"
+	}
+}
