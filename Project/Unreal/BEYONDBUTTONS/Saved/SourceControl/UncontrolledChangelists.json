@@ -8,7 +8,24 @@
 				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Plugins/DarkerNodes/Content/Materials/SolidColor.uasset",
 				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Plugins/DarkerNodes/Content/Materials/Box.uasset",
 				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Plugins/DarkerNodes/Content/Materials/HeaderBox.uasset",
-				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Plugins/DarkerNodes/Content/Materials/Panel.uasset"
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Plugins/DarkerNodes/Content/Materials/Panel.uasset",
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Content/Game/PC_Main.uasset",
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Content/Input/IMC_Joystick.uasset",
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Content/Game/GM_MAIN.uasset",
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Content/Game/Player/_PLAYERMAIN.uasset",
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Content/Player/_PLAYERMAIN.uasset",
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Content/Game/Core/GM_MAIN.uasset",
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Content/Game/Core/PC_Main.uasset",
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Content/Input/IMC_POINTCLICK.uasset",
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Content/Input/IMC_2DMOVE.uasset",
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Content/Input/InputActions/IA_MouseInteraction.uasset",
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Content/Input/InputActions/IA_Look.uasset",
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Content/Input/InputActions/IA_Jump.uasset",
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Content/Input/InputActions/IA_Interact.uasset",
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Content/Input/InputActions/IA_2DMove.uasset",
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Content/Tools/BPMacLib.uasset",
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Content/Map/LEVEL_1.umap",
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Content/UI/Widgets/UI_MainMenu.uasset"
 			]
 		}
 	]
