@@ -29,30 +29,46 @@ struct Z_Construct_UClass_UDetailsPanelPrinterSettings_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * A class that sets the default values for UPrintDetailsPanelOptions from the editor preferences.\n */" },
+#endif
 		{ "IncludePath", "DetailsPanelPrinter/Utilities/DetailsPanelPrinterSettings.h" },
 		{ "ModuleRelativePath", "Public/DetailsPanelPrinter/Utilities/DetailsPanelPrinterSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A class that sets the default values for UPrintDetailsPanelOptions from the editor preferences." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Padding_MetaData[] = {
 		{ "Category", "Image" },
 		{ "ClampMin", "0.000000" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// The height margin when drawing the details view.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/DetailsPanelPrinter/Utilities/DetailsPanelPrinterSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The height margin when drawing the details view." },
+#endif
 		{ "UIMin", "0.000000" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bIsIncludeExpansionStateInImageFile_MetaData[] = {
 		{ "Category", "Expansion State" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Whether to embed the expanded state of each item in the image file and restore the expanded state of each item when restoring.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/DetailsPanelPrinter/Utilities/DetailsPanelPrinterSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to embed the expanded state of each item in the image file and restore the expanded state of each item when restoring." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bWhetherToAlsoRestoreExpandedStates_MetaData[] = {
 		{ "Category", "Expansion State" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Whether to also restore the expanded state when restoring.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/DetailsPanelPrinter/Utilities/DetailsPanelPrinterSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to also restore the expanded state when restoring." },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_Padding;
@@ -121,14 +137,14 @@ UDetailsPanelPrinterSettings::~UDetailsPanelPrinterSettings() {}
 // End Class UDetailsPanelPrinterSettings
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_DetailsPanelPrinter_Public_DetailsPanelPrinter_Utilities_DetailsPanelPrinterSettings_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_DetailsPanelPrinter_Public_DetailsPanelPrinter_Utilities_DetailsPanelPrinterSettings_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UDetailsPanelPrinterSettings, UDetailsPanelPrinterSettings::StaticClass, TEXT("UDetailsPanelPrinterSettings"), &Z_Registration_Info_UClass_UDetailsPanelPrinterSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDetailsPanelPrinterSettings), 510061243U) },
+		{ Z_Construct_UClass_UDetailsPanelPrinterSettings, UDetailsPanelPrinterSettings::StaticClass, TEXT("UDetailsPanelPrinterSettings"), &Z_Registration_Info_UClass_UDetailsPanelPrinterSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDetailsPanelPrinterSettings), 2529856905U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_DetailsPanelPrinter_Public_DetailsPanelPrinter_Utilities_DetailsPanelPrinterSettings_h_2777773089(TEXT("/Script/DetailsPanelPrinter"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_DetailsPanelPrinter_Public_DetailsPanelPrinter_Utilities_DetailsPanelPrinterSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_DetailsPanelPrinter_Public_DetailsPanelPrinter_Utilities_DetailsPanelPrinterSettings_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_DetailsPanelPrinter_Public_DetailsPanelPrinter_Utilities_DetailsPanelPrinterSettings_h_1635892921(TEXT("/Script/DetailsPanelPrinter"),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_DetailsPanelPrinter_Public_DetailsPanelPrinter_Utilities_DetailsPanelPrinterSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_DetailsPanelPrinter_Public_DetailsPanelPrinter_Utilities_DetailsPanelPrinterSettings_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

@@ -31,15 +31,23 @@ struct Z_Construct_UClass_UWidgetPrinter_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * A wrapper class that inherits from UObject to collect all existing printers.\n * Please implement the actual processing in the inner class.\n */" },
+#endif
 		{ "IncludePath", "WidgetPrinter/WidgetPrinters/WidgetPrinter.h" },
 		{ "ModuleRelativePath", "Public/WidgetPrinter/WidgetPrinters/WidgetPrinter.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A wrapper class that inherits from UObject to collect all existing printers.\nPlease implement the actual processing in the inner class." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CachedPrintOptions_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Optional classes that is cached for passing to the inner class.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/WidgetPrinter/WidgetPrinters/WidgetPrinter.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Optional classes that is cached for passing to the inner class." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CachedRestoreOptions_MetaData[] = {
 		{ "ModuleRelativePath", "Public/WidgetPrinter/WidgetPrinters/WidgetPrinter.h" },
@@ -98,14 +106,14 @@ UWidgetPrinter::~UWidgetPrinter() {}
 // End Class UWidgetPrinter
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_WidgetPrinter_Public_WidgetPrinter_WidgetPrinters_WidgetPrinter_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_WidgetPrinter_Public_WidgetPrinter_WidgetPrinters_WidgetPrinter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UWidgetPrinter, UWidgetPrinter::StaticClass, TEXT("UWidgetPrinter"), &Z_Registration_Info_UClass_UWidgetPrinter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UWidgetPrinter), 186751373U) },
+		{ Z_Construct_UClass_UWidgetPrinter, UWidgetPrinter::StaticClass, TEXT("UWidgetPrinter"), &Z_Registration_Info_UClass_UWidgetPrinter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UWidgetPrinter), 2704906890U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_WidgetPrinter_Public_WidgetPrinter_WidgetPrinters_WidgetPrinter_h_2650677119(TEXT("/Script/WidgetPrinter"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_WidgetPrinter_Public_WidgetPrinter_WidgetPrinters_WidgetPrinter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_WidgetPrinter_Public_WidgetPrinter_WidgetPrinters_WidgetPrinter_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_WidgetPrinter_Public_WidgetPrinter_WidgetPrinters_WidgetPrinter_h_977427213(TEXT("/Script/WidgetPrinter"),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_WidgetPrinter_Public_WidgetPrinter_WidgetPrinters_WidgetPrinter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_WidgetPrinter_Public_WidgetPrinter_WidgetPrinters_WidgetPrinter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

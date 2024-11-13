@@ -39,19 +39,31 @@ struct Z_Construct_UScriptStruct_FASCCommentData_Statics
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsCacheFile.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_NodeGuids_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Containing nodes */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsCacheFile.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Containing nodes" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bHeader_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Is this node a header node */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsCacheFile.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Is this node a header node" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bInit_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* Has the node been initialized */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsCacheFile.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Has the node been initialized" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStructPropertyParams NewProp_NodeGuids_Inner;
@@ -133,9 +145,9 @@ struct Z_Construct_UScriptStruct_FASCGraphData_Statics
 	}
 	static const UECodeGen_Private::FStructParams StructParams;
 };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FASCGraphData_Statics::NewProp_CommentData_ValueProp = { "CommentData", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FASCCommentData, METADATA_PARAMS(0, nullptr) }; // 86099255
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FASCGraphData_Statics::NewProp_CommentData_ValueProp = { "CommentData", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FASCCommentData, METADATA_PARAMS(0, nullptr) }; // 4028445853
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FASCGraphData_Statics::NewProp_CommentData_Key_KeyProp = { "CommentData_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGuid, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FASCGraphData_Statics::NewProp_CommentData = { "CommentData", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FASCGraphData, CommentData), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CommentData_MetaData), NewProp_CommentData_MetaData) }; // 86099255
+const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FASCGraphData_Statics::NewProp_CommentData = { "CommentData", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FASCGraphData, CommentData), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_CommentData_MetaData), NewProp_CommentData_MetaData) }; // 4028445853
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FASCGraphData_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FASCGraphData_Statics::NewProp_CommentData_ValueProp,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FASCGraphData_Statics::NewProp_CommentData_Key_KeyProp,
@@ -199,9 +211,9 @@ struct Z_Construct_UScriptStruct_FASCPackageData_Statics
 	}
 	static const UECodeGen_Private::FStructParams StructParams;
 };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FASCPackageData_Statics::NewProp_GraphData_ValueProp = { "GraphData", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FASCGraphData, METADATA_PARAMS(0, nullptr) }; // 3926270955
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FASCPackageData_Statics::NewProp_GraphData_ValueProp = { "GraphData", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FASCGraphData, METADATA_PARAMS(0, nullptr) }; // 1120032460
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FASCPackageData_Statics::NewProp_GraphData_Key_KeyProp = { "GraphData_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, Z_Construct_UScriptStruct_FGuid, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FASCPackageData_Statics::NewProp_GraphData = { "GraphData", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FASCPackageData, GraphData), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_GraphData_MetaData), NewProp_GraphData_MetaData) }; // 3926270955
+const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FASCPackageData_Statics::NewProp_GraphData = { "GraphData", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FASCPackageData, GraphData), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_GraphData_MetaData), NewProp_GraphData_MetaData) }; // 1120032460
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FASCPackageData_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FASCPackageData_Statics::NewProp_GraphData_ValueProp,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FASCPackageData_Statics::NewProp_GraphData_Key_KeyProp,
@@ -265,9 +277,9 @@ struct Z_Construct_UScriptStruct_FASCCacheData_Statics
 	}
 	static const UECodeGen_Private::FStructParams StructParams;
 };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FASCCacheData_Statics::NewProp_PackageData_ValueProp = { "PackageData", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FASCPackageData, METADATA_PARAMS(0, nullptr) }; // 2941189459
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FASCCacheData_Statics::NewProp_PackageData_ValueProp = { "PackageData", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FASCPackageData, METADATA_PARAMS(0, nullptr) }; // 2415452878
 const UECodeGen_Private::FNamePropertyParams Z_Construct_UScriptStruct_FASCCacheData_Statics::NewProp_PackageData_Key_KeyProp = { "PackageData_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FASCCacheData_Statics::NewProp_PackageData = { "PackageData", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FASCCacheData, PackageData), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PackageData_MetaData), NewProp_PackageData_MetaData) }; // 2941189459
+const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FASCCacheData_Statics::NewProp_PackageData = { "PackageData", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FASCCacheData, PackageData), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_PackageData_MetaData), NewProp_PackageData_MetaData) }; // 2415452878
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FASCCacheData_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FASCCacheData_Statics::NewProp_PackageData_ValueProp,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FASCCacheData_Statics::NewProp_PackageData_Key_KeyProp,
@@ -298,18 +310,18 @@ UScriptStruct* Z_Construct_UScriptStruct_FASCCacheData()
 // End ScriptStruct FASCCacheData
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsCacheFile_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsCacheFile_h_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ FASCCommentData::StaticStruct, Z_Construct_UScriptStruct_FASCCommentData_Statics::NewStructOps, TEXT("ASCCommentData"), &Z_Registration_Info_UScriptStruct_ASCCommentData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FASCCommentData), 86099255U) },
-		{ FASCGraphData::StaticStruct, Z_Construct_UScriptStruct_FASCGraphData_Statics::NewStructOps, TEXT("ASCGraphData"), &Z_Registration_Info_UScriptStruct_ASCGraphData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FASCGraphData), 3926270955U) },
-		{ FASCPackageData::StaticStruct, Z_Construct_UScriptStruct_FASCPackageData_Statics::NewStructOps, TEXT("ASCPackageData"), &Z_Registration_Info_UScriptStruct_ASCPackageData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FASCPackageData), 2941189459U) },
-		{ FASCCacheData::StaticStruct, Z_Construct_UScriptStruct_FASCCacheData_Statics::NewStructOps, TEXT("ASCCacheData"), &Z_Registration_Info_UScriptStruct_ASCCacheData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FASCCacheData), 82813239U) },
+		{ FASCCommentData::StaticStruct, Z_Construct_UScriptStruct_FASCCommentData_Statics::NewStructOps, TEXT("ASCCommentData"), &Z_Registration_Info_UScriptStruct_ASCCommentData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FASCCommentData), 4028445853U) },
+		{ FASCGraphData::StaticStruct, Z_Construct_UScriptStruct_FASCGraphData_Statics::NewStructOps, TEXT("ASCGraphData"), &Z_Registration_Info_UScriptStruct_ASCGraphData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FASCGraphData), 1120032460U) },
+		{ FASCPackageData::StaticStruct, Z_Construct_UScriptStruct_FASCPackageData_Statics::NewStructOps, TEXT("ASCPackageData"), &Z_Registration_Info_UScriptStruct_ASCPackageData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FASCPackageData), 2415452878U) },
+		{ FASCCacheData::StaticStruct, Z_Construct_UScriptStruct_FASCCacheData_Statics::NewStructOps, TEXT("ASCCacheData"), &Z_Registration_Info_UScriptStruct_ASCCacheData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FASCCacheData), 2785804965U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsCacheFile_h_497281476(TEXT("/Script/AutoSizeComments"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsCacheFile_h_647274489(TEXT("/Script/AutoSizeComments"),
 	nullptr, 0,
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsCacheFile_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsCacheFile_h_Statics::ScriptStructInfo),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsCacheFile_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsCacheFile_h_Statics::ScriptStructInfo),
 	nullptr, 0);
 // End Registration
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

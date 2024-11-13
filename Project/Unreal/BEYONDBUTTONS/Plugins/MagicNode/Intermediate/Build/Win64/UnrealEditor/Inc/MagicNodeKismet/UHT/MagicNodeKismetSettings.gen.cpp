@@ -35,46 +35,66 @@ struct Z_Construct_UClass_UKMGC_Settings_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "Category", "Synaptech" },
 		{ "ClassGroupNames", "Synaptech" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\n/// MGC Global Settings\n" },
+#endif
 		{ "IncludePath", "MagicNodeKismetSettings.h" },
 		{ "ModuleRelativePath", "Public/MagicNodeKismetSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MGC Global Settings" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_KeywordDB_MetaData[] = {
 		{ "Category", "MGC Kismet Data" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n/// :: KISMET ::\n///\n" },
+#endif
 		{ "DisplayName", "Keyword Database" },
 		{ "ModuleRelativePath", "Public/MagicNodeKismetSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", ":: KISMET ::" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FunctionDB_MetaData[] = {
 		{ "Category", "MGC Kismet Data" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n" },
+#endif
 		{ "DisplayName", "Function Database" },
 		{ "ModuleRelativePath", "Public/MagicNodeKismetSettings.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ClassDB_MetaData[] = {
 		{ "Category", "MGC Kismet Data" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n" },
+#endif
 		{ "DisplayName", "Class Database" },
 		{ "ModuleRelativePath", "Public/MagicNodeKismetSettings.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SemanticDB_MetaData[] = {
 		{ "Category", "MGC Kismet Data" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n" },
+#endif
 		{ "DisplayName", "Semantic Database" },
 		{ "ModuleRelativePath", "Public/MagicNodeKismetSettings.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ShowKeywordHints_MetaData[] = {
 		{ "Category", "MGC Node Editor" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n//\n" },
+#endif
 		{ "ModuleRelativePath", "Public/MagicNodeKismetSettings.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ScanUnrealTypesOnEditorStartup_MetaData[] = {
 		{ "Category", "MGC Code Completion" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* If enabled, the auto-complete system will search for Unreal Types on Editor launch.\n\x09The list of types is HUGE and Editor startup could increase by several minutes with this activated. */" },
+#endif
 		{ "ModuleRelativePath", "Public/MagicNodeKismetSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If enabled, the auto-complete system will search for Unreal Types on Editor launch.\n      The list of types is HUGE and Editor startup could increase by several minutes with this activated." },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FSoftObjectPropertyParams NewProp_KeywordDB_ElementProp;
@@ -164,14 +184,14 @@ UKMGC_Settings::~UKMGC_Settings() {}
 // End Class UKMGC_Settings
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeKismet_Public_MagicNodeKismetSettings_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeKismet_Public_MagicNodeKismetSettings_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UKMGC_Settings, UKMGC_Settings::StaticClass, TEXT("UKMGC_Settings"), &Z_Registration_Info_UClass_UKMGC_Settings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UKMGC_Settings), 217505696U) },
+		{ Z_Construct_UClass_UKMGC_Settings, UKMGC_Settings::StaticClass, TEXT("UKMGC_Settings"), &Z_Registration_Info_UClass_UKMGC_Settings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UKMGC_Settings), 2923146315U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeKismet_Public_MagicNodeKismetSettings_h_3918469506(TEXT("/Script/MagicNodeKismet"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeKismet_Public_MagicNodeKismetSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeKismet_Public_MagicNodeKismetSettings_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeKismet_Public_MagicNodeKismetSettings_h_3153786977(TEXT("/Script/MagicNodeKismet"),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeKismet_Public_MagicNodeKismetSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeKismet_Public_MagicNodeKismetSettings_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

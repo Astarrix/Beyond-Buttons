@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ExtraWinFunction.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\W013321M\Documents\GitHub\Beyond-Buttons\Project\Unreal\BEYONDBUTTONS\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\W013321M\Documents\GitHub\Beyond-Buttons\Project\Unreal\BEYONDBUTTONS\Plugins\ExtraWinFunction\Intermediate\Build\Win64\x64\UnrealEditor\Development\ExtraWinFunction\Module.ExtraWinFunction.cpp.obj"
+"C:\Users\W013321M\Documents\GitHub\Beyond-Buttons\Project\Unreal\BEYONDBUTTONS\Plugins\ExtraWinFunction\Intermediate\Build\Win64\x64\UnrealEditor\Development\ExtraWinFunction\ExtraWinFunction.cpp.obj"
+"C:\Users\W013321M\Documents\GitHub\Beyond-Buttons\Project\Unreal\BEYONDBUTTONS\Plugins\ExtraWinFunction\Intermediate\Build\Win64\x64\UnrealEditor\Development\ExtraWinFunction\ExtraWinFunctionBPLibrary.cpp.obj"
+"C:\Users\W013321M\Documents\GitHub\Beyond-Buttons\Project\Unreal\BEYONDBUTTONS\Plugins\ExtraWinFunction\Intermediate\Build\Win64\x64\UnrealEditor\Development\ExtraWinFunction\Default.rc2.res"
+/OUT:"C:\Users\W013321M\Documents\GitHub\Beyond-Buttons\Project\Unreal\BEYONDBUTTONS\Plugins\ExtraWinFunction\Intermediate\Build\Win64\x64\UnrealEditor\Development\ExtraWinFunction\UnrealEditor-ExtraWinFunction.lib"

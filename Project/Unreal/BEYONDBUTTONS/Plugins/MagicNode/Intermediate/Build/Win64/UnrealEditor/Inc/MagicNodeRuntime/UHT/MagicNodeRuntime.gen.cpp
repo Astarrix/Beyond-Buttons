@@ -28,7 +28,9 @@ struct Z_Construct_UFunction_UMagicNode_Finish_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "MagicNode" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n" },
+#endif
 		{ "ModuleRelativePath", "Public/MagicNodeRuntime.h" },
 	};
 #endif // WITH_METADATA
@@ -74,16 +76,20 @@ struct Z_Construct_UClass_UMagicNode_Statics
 		{ "BlueprintType", "true" },
 		{ "Category", "MagicNode" },
 		{ "ClassGroupNames", "Synaptech" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/// Magic-Node's Runtime Object.\n" },
+#endif
 		{ "HideCategories", "Activation Variable" },
 		{ "IncludePath", "MagicNodeRuntime.h" },
 		{ "ModuleRelativePath", "Public/MagicNodeRuntime.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Magic-Node's Runtime Object." },
+#endif
 	};
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UMagicNode_Finish, "Finish" }, // 574155193
+		{ &Z_Construct_UFunction_UMagicNode_Finish, "Finish" }, // 1357468764
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -143,13 +149,17 @@ struct Z_Construct_UClass_UMagicNodeScript_Statics
 		{ "BlueprintType", "true" },
 		{ "Category", "MagicNode" },
 		{ "ClassGroupNames", "Synaptech" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* C++ Scriptable Node for Blueprint Graphs */" },
+#endif
 		{ "DisplayName", "Magic Node Script" },
 		{ "HideCategories", "Activation Variable" },
 		{ "IncludePath", "MagicNodeRuntime.h" },
 		{ "IsBlueprintBase", "true" },
 		{ "ModuleRelativePath", "Public/MagicNodeRuntime.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "C++ Scriptable Node for Blueprint Graphs" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RuntimeScriptClass_MetaData[] = {
 		{ "ModuleRelativePath", "Public/MagicNodeRuntime.h" },
@@ -161,17 +171,23 @@ struct Z_Construct_UClass_UMagicNodeScript_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ParentClass_MetaData[] = {
 		{ "Category", "MagicNode" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n" },
+#endif
 		{ "ModuleRelativePath", "Public/MagicNodeRuntime.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LockSourceCode_MetaData[] = {
 		{ "Category", "MagicNode" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n" },
+#endif
 		{ "ModuleRelativePath", "Public/MagicNodeRuntime.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Source_MetaData[] = {
 		{ "Category", "Source Code" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n" },
+#endif
 		{ "ModuleRelativePath", "Public/MagicNodeRuntime.h" },
 	};
 #endif // WITH_EDITORONLY_DATA
@@ -200,7 +216,7 @@ void Z_Construct_UClass_UMagicNodeScript_Statics::NewProp_LockSourceCode_SetBit(
 	((UMagicNodeScript*)Obj)->LockSourceCode = 1;
 }
 const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UMagicNodeScript_Statics::NewProp_LockSourceCode = { "LockSourceCode", nullptr, (EPropertyFlags)0x0010000800010001, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, sizeof(bool), sizeof(UMagicNodeScript), &Z_Construct_UClass_UMagicNodeScript_Statics::NewProp_LockSourceCode_SetBit, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LockSourceCode_MetaData), NewProp_LockSourceCode_MetaData) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UMagicNodeScript_Statics::NewProp_Source = { "Source", nullptr, (EPropertyFlags)0x0010000800010001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UMagicNodeScript, Source), Z_Construct_UScriptStruct_FMGC_SourceCode, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Source_MetaData), NewProp_Source_MetaData) }; // 2426688733
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UMagicNodeScript_Statics::NewProp_Source = { "Source", nullptr, (EPropertyFlags)0x0010000800010001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UMagicNodeScript, Source), Z_Construct_UScriptStruct_FMGC_SourceCode, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Source_MetaData), NewProp_Source_MetaData) }; // 1374001970
 #endif // WITH_EDITORONLY_DATA
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMagicNodeScript_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMagicNodeScript_Statics::NewProp_RuntimeScriptClass,
@@ -249,15 +265,15 @@ UMagicNodeScript::~UMagicNodeScript() {}
 // End Class UMagicNodeScript
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeRuntime_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeRuntime_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UMagicNode, UMagicNode::StaticClass, TEXT("UMagicNode"), &Z_Registration_Info_UClass_UMagicNode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMagicNode), 3223284258U) },
-		{ Z_Construct_UClass_UMagicNodeScript, UMagicNodeScript::StaticClass, TEXT("UMagicNodeScript"), &Z_Registration_Info_UClass_UMagicNodeScript, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMagicNodeScript), 3181430331U) },
+		{ Z_Construct_UClass_UMagicNode, UMagicNode::StaticClass, TEXT("UMagicNode"), &Z_Registration_Info_UClass_UMagicNode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMagicNode), 967660438U) },
+		{ Z_Construct_UClass_UMagicNodeScript, UMagicNodeScript::StaticClass, TEXT("UMagicNodeScript"), &Z_Registration_Info_UClass_UMagicNodeScript, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMagicNodeScript), 3294099830U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeRuntime_h_3112830533(TEXT("/Script/MagicNodeRuntime"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeRuntime_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeRuntime_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeRuntime_h_2347677684(TEXT("/Script/MagicNodeRuntime"),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeRuntime_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeRuntime_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

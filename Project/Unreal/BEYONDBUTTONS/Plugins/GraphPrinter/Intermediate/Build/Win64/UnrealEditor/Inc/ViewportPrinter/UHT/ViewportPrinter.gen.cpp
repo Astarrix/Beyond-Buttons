@@ -29,10 +29,14 @@ struct Z_Construct_UClass_UViewportPrinter_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * A class of graph printers dedicated to viewport in levels, materials, animation blueprints, etc.\n */" },
+#endif
 		{ "IncludePath", "ViewportPrinter/WidgetPrinters/ViewportPrinter.h" },
 		{ "ModuleRelativePath", "Public/ViewportPrinter/WidgetPrinters/ViewportPrinter.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A class of graph printers dedicated to viewport in levels, materials, animation blueprints, etc." },
+#endif
 	};
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
@@ -79,14 +83,14 @@ UViewportPrinter::~UViewportPrinter() {}
 // End Class UViewportPrinter
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_ViewportPrinter_Public_ViewportPrinter_WidgetPrinters_ViewportPrinter_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_ViewportPrinter_Public_ViewportPrinter_WidgetPrinters_ViewportPrinter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UViewportPrinter, UViewportPrinter::StaticClass, TEXT("UViewportPrinter"), &Z_Registration_Info_UClass_UViewportPrinter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UViewportPrinter), 1250249387U) },
+		{ Z_Construct_UClass_UViewportPrinter, UViewportPrinter::StaticClass, TEXT("UViewportPrinter"), &Z_Registration_Info_UClass_UViewportPrinter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UViewportPrinter), 3568948959U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_ViewportPrinter_Public_ViewportPrinter_WidgetPrinters_ViewportPrinter_h_4268051770(TEXT("/Script/ViewportPrinter"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_ViewportPrinter_Public_ViewportPrinter_WidgetPrinters_ViewportPrinter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_ViewportPrinter_Public_ViewportPrinter_WidgetPrinters_ViewportPrinter_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_ViewportPrinter_Public_ViewportPrinter_WidgetPrinters_ViewportPrinter_h_3946284676(TEXT("/Script/ViewportPrinter"),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_ViewportPrinter_Public_ViewportPrinter_WidgetPrinters_ViewportPrinter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_ViewportPrinter_Public_ViewportPrinter_WidgetPrinters_ViewportPrinter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

@@ -26,9 +26,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_CheckInternetConnect
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check Internet\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check Internet" },
+#endif
 	};
 #endif // WITH_METADATA
 	static void NewProp_ReturnValue_SetBit(void* Obj);
@@ -76,9 +80,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_CreateDirectory_Stat
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to Create Directory\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to Create Directory" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_DirectoryPath;
@@ -130,9 +138,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_DeleteDirectory_Stat
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to Delete Directory\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to Delete Directory" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DirectoryToDelete_MetaData[] = {
 		{ "NativeConst", "" },
@@ -186,9 +198,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetAllGraphicsCardNa
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check All Graphics Card Names\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check All Graphics Card Names" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue_Inner;
@@ -233,9 +249,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetAllMicrophoneName
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check All Microphone Names\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check All Microphone Names" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue_Inner;
@@ -280,9 +300,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetAllSpeakerNames_S
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check All Speaker Names\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check All Speaker Names" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue_Inner;
@@ -328,9 +352,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetComputerSoundLeve
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check Computer Sound Level\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check Computer Sound Level" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_OutVolume;
@@ -381,9 +409,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetComputerUsername_
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check Computer Username\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check Computer Username" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
@@ -425,9 +457,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetDefaultMicrophone
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check Default Microphone Name\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check Default Microphone Name" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
@@ -469,9 +505,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetDefaultSoundDevic
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check Default Sound Device Name\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check Default Sound Device Name" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
@@ -513,9 +553,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetDeviceName_Static
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check Device Name \n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check Device Name" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
@@ -557,9 +601,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetDevicePlatform_St
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check Device Platform\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check Device Platform" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
@@ -601,9 +649,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetDisplayRefreshRat
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check Get Display Refresh Rate\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check Get Display Refresh Rate" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
@@ -645,9 +697,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetGraphicsCardRAMSi
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check Graphics Card RAM Size\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check Graphics Card RAM Size" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FIntPropertyParams NewProp_ReturnValue;
@@ -689,9 +745,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetMicrophoneVolume_
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to Get Microphone Volume\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to Get Microphone Volume" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_ReturnValue;
@@ -733,9 +793,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetPrimaryGraphicsCa
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check Primary Graphics Card Name\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check Primary Graphics Card Name" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
@@ -777,9 +841,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetProcessorCoreCoun
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check Processor Core Count\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check Processor Core Count" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FIntPropertyParams NewProp_ReturnValue;
@@ -821,9 +889,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetProcessorThreadCo
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check Processor Thread Count\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check Processor Thread Count" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FIntPropertyParams NewProp_ReturnValue;
@@ -865,9 +937,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetRamSize_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check Ram Size\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check Ram Size" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FIntPropertyParams NewProp_ReturnValue;
@@ -909,9 +985,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetTotalMouseButtonC
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check Total Mouse Button Count\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check Total Mouse Button Count" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FIntPropertyParams NewProp_ReturnValue;
@@ -953,9 +1033,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_IsBatteryCharging_St
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check Battery Charging\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check Battery Charging" },
+#endif
 	};
 #endif // WITH_METADATA
 	static void NewProp_ReturnValue_SetBit(void* Obj);
@@ -1002,9 +1086,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_IsBatterySupported_S
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check Battery Supported\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check Battery Supported" },
+#endif
 	};
 #endif // WITH_METADATA
 	static void NewProp_ReturnValue_SetBit(void* Obj);
@@ -1051,9 +1139,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_IsGraphicsCardAvaila
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check Graphics Card Available\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check Graphics Card Available" },
+#endif
 	};
 #endif // WITH_METADATA
 	static void NewProp_ReturnValue_SetBit(void* Obj);
@@ -1100,9 +1192,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_IsMicrophoneAvailabl
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check Microphone\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check Microphone" },
+#endif
 	};
 #endif // WITH_METADATA
 	static void NewProp_ReturnValue_SetBit(void* Obj);
@@ -1149,9 +1245,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_IsMouseAvailable_Sta
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to check Mouse Available\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to check Mouse Available" },
+#endif
 	};
 #endif // WITH_METADATA
 	static void NewProp_ReturnValue_SetBit(void* Obj);
@@ -1198,9 +1298,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_IsSpeakerAvailable_S
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to Check Speaker Available\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to Check Speaker Available" },
+#endif
 	};
 #endif // WITH_METADATA
 	static void NewProp_ReturnValue_SetBit(void* Obj);
@@ -1247,9 +1351,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_MuteComputerSound_St
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to Mute Computer Sound\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to Mute Computer Sound" },
+#endif
 	};
 #endif // WITH_METADATA
 	static void NewProp_bMute_SetBit(void* Obj);
@@ -1297,9 +1405,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_MuteMicrophoneVolume
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to Mute Microphone Volume\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to Mute Microphone Volume" },
+#endif
 	};
 #endif // WITH_METADATA
 	static void NewProp_bMute_SetBit(void* Obj);
@@ -1347,9 +1459,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_OpenDirectory_Static
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to Open Directory\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to Open Directory" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DirectoryPath_MetaData[] = {
 		{ "NativeConst", "" },
@@ -1395,9 +1511,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_SetComputerSoundLeve
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to Set Computer Sound Level\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to Set Computer Sound Level" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_VolumeLevel;
@@ -1440,9 +1560,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_SetMicrophoneVolume_
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to Set Microphone Volume\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to Set Microphone Volume" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFloatPropertyParams NewProp_VolumeLevel;
@@ -1486,9 +1610,13 @@ struct Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_ShowMessageBox_Stati
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "ExtraWinFunction" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Use to Show Message Box\n" },
+#endif
 		{ "ModuleRelativePath", "Public/ExtraWinFunctionBPLibrary.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use to Show Message Box" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStrPropertyParams NewProp_Message;
@@ -1580,38 +1708,38 @@ struct Z_Construct_UClass_UWindowsExtraFunctionBPLibrary_Statics
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_CheckInternetConnection, "CheckInternetConnection" }, // 3027331827
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_CreateDirectory, "CreateDirectory" }, // 2056046181
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_DeleteDirectory, "DeleteDirectory" }, // 720309197
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetAllGraphicsCardNames, "GetAllGraphicsCardNames" }, // 4119300866
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetAllMicrophoneNames, "GetAllMicrophoneNames" }, // 3872906443
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetAllSpeakerNames, "GetAllSpeakerNames" }, // 4062501364
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetComputerSoundLevel, "GetComputerSoundLevel" }, // 2168524808
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetComputerUsername, "GetComputerUsername" }, // 3262788482
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetDefaultMicrophoneName, "GetDefaultMicrophoneName" }, // 2568467873
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetDefaultSoundDeviceName, "GetDefaultSoundDeviceName" }, // 3858214305
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetDeviceName, "GetDeviceName" }, // 97586978
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetDevicePlatform, "GetDevicePlatform" }, // 2369241390
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetDisplayRefreshRate, "GetDisplayRefreshRate" }, // 1138491100
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetGraphicsCardRAMSize, "GetGraphicsCardRAMSize" }, // 3072980580
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetMicrophoneVolume, "GetMicrophoneVolume" }, // 3376902834
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetPrimaryGraphicsCardName, "GetPrimaryGraphicsCardName" }, // 3911651362
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetProcessorCoreCount, "GetProcessorCoreCount" }, // 2870113695
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetProcessorThreadCount, "GetProcessorThreadCount" }, // 4209137532
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetRamSize, "GetRamSize" }, // 397632583
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetTotalMouseButtonCount, "GetTotalMouseButtonCount" }, // 2987982064
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_IsBatteryCharging, "IsBatteryCharging" }, // 1469028431
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_IsBatterySupported, "IsBatterySupported" }, // 230946703
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_IsGraphicsCardAvailable, "IsGraphicsCardAvailable" }, // 2640782472
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_IsMicrophoneAvailable, "IsMicrophoneAvailable" }, // 3701516077
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_IsMouseAvailable, "IsMouseAvailable" }, // 808494686
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_IsSpeakerAvailable, "IsSpeakerAvailable" }, // 1301032430
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_MuteComputerSound, "MuteComputerSound" }, // 4095842735
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_MuteMicrophoneVolume, "MuteMicrophoneVolume" }, // 12346054
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_OpenDirectory, "OpenDirectory" }, // 4053283973
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_SetComputerSoundLevel, "SetComputerSoundLevel" }, // 3846119491
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_SetMicrophoneVolume, "SetMicrophoneVolume" }, // 3650221688
-		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_ShowMessageBox, "ShowMessageBox" }, // 2823442304
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_CheckInternetConnection, "CheckInternetConnection" }, // 1641140591
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_CreateDirectory, "CreateDirectory" }, // 1779153390
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_DeleteDirectory, "DeleteDirectory" }, // 2560862642
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetAllGraphicsCardNames, "GetAllGraphicsCardNames" }, // 2742813620
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetAllMicrophoneNames, "GetAllMicrophoneNames" }, // 2804761021
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetAllSpeakerNames, "GetAllSpeakerNames" }, // 2562190806
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetComputerSoundLevel, "GetComputerSoundLevel" }, // 4031277480
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetComputerUsername, "GetComputerUsername" }, // 2412787304
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetDefaultMicrophoneName, "GetDefaultMicrophoneName" }, // 3523274874
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetDefaultSoundDeviceName, "GetDefaultSoundDeviceName" }, // 4206237903
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetDeviceName, "GetDeviceName" }, // 2998166443
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetDevicePlatform, "GetDevicePlatform" }, // 3818555416
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetDisplayRefreshRate, "GetDisplayRefreshRate" }, // 1634727545
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetGraphicsCardRAMSize, "GetGraphicsCardRAMSize" }, // 1314400674
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetMicrophoneVolume, "GetMicrophoneVolume" }, // 1513092412
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetPrimaryGraphicsCardName, "GetPrimaryGraphicsCardName" }, // 2679360028
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetProcessorCoreCount, "GetProcessorCoreCount" }, // 2334611327
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetProcessorThreadCount, "GetProcessorThreadCount" }, // 414461549
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetRamSize, "GetRamSize" }, // 3089274165
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_GetTotalMouseButtonCount, "GetTotalMouseButtonCount" }, // 2901533480
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_IsBatteryCharging, "IsBatteryCharging" }, // 3475572312
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_IsBatterySupported, "IsBatterySupported" }, // 800141457
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_IsGraphicsCardAvailable, "IsGraphicsCardAvailable" }, // 2337116582
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_IsMicrophoneAvailable, "IsMicrophoneAvailable" }, // 1880070445
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_IsMouseAvailable, "IsMouseAvailable" }, // 3070674550
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_IsSpeakerAvailable, "IsSpeakerAvailable" }, // 339379803
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_MuteComputerSound, "MuteComputerSound" }, // 1467657929
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_MuteMicrophoneVolume, "MuteMicrophoneVolume" }, // 886750586
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_OpenDirectory, "OpenDirectory" }, // 3437712774
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_SetComputerSoundLevel, "SetComputerSoundLevel" }, // 196061522
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_SetMicrophoneVolume, "SetMicrophoneVolume" }, // 3361639047
+		{ &Z_Construct_UFunction_UWindowsExtraFunctionBPLibrary_ShowMessageBox, "ShowMessageBox" }, // 4119254545
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -1657,14 +1785,14 @@ UWindowsExtraFunctionBPLibrary::~UWindowsExtraFunctionBPLibrary() {}
 // End Class UWindowsExtraFunctionBPLibrary
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ExtraWinFunction_Source_ExtraWinFunction_Public_ExtraWinFunctionBPLibrary_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_ExtraWinFunction_Source_ExtraWinFunction_Public_ExtraWinFunctionBPLibrary_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UWindowsExtraFunctionBPLibrary, UWindowsExtraFunctionBPLibrary::StaticClass, TEXT("UWindowsExtraFunctionBPLibrary"), &Z_Registration_Info_UClass_UWindowsExtraFunctionBPLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UWindowsExtraFunctionBPLibrary), 1622926927U) },
+		{ Z_Construct_UClass_UWindowsExtraFunctionBPLibrary, UWindowsExtraFunctionBPLibrary::StaticClass, TEXT("UWindowsExtraFunctionBPLibrary"), &Z_Registration_Info_UClass_UWindowsExtraFunctionBPLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UWindowsExtraFunctionBPLibrary), 2996384756U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ExtraWinFunction_Source_ExtraWinFunction_Public_ExtraWinFunctionBPLibrary_h_3772731959(TEXT("/Script/ExtraWinFunction"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ExtraWinFunction_Source_ExtraWinFunction_Public_ExtraWinFunctionBPLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_ExtraWinFunction_Source_ExtraWinFunction_Public_ExtraWinFunctionBPLibrary_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_ExtraWinFunction_Source_ExtraWinFunction_Public_ExtraWinFunctionBPLibrary_h_1930155626(TEXT("/Script/ExtraWinFunction"),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_ExtraWinFunction_Source_ExtraWinFunction_Public_ExtraWinFunctionBPLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_ExtraWinFunction_Source_ExtraWinFunction_Public_ExtraWinFunctionBPLibrary_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ViewportPrinter.cpp.obj": [
+			"ViewportPrinter.init.gen.cpp.obj",
+			"ViewportPrinterModule.cpp.obj",
+			"InnerViewportPrinter.cpp.obj",
+			"ViewportPrinter.cpp.obj"
+		]
+	}
+}

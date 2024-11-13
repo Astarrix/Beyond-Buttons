@@ -29,37 +29,57 @@ struct Z_Construct_UClass_UGraphPrinterEditorExtensionSettings_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * A editor preferences class related to the editor extension of this plugin.\n */" },
+#endif
 		{ "IncludePath", "GraphPrinterEditorExtension/Utilities/GraphPrinterEditorExtensionSettings.h" },
 		{ "ModuleRelativePath", "Public/GraphPrinterEditorExtension/Utilities/GraphPrinterEditorExtensionSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A editor preferences class related to the editor extension of this plugin." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bShowSubMenuInToolMenu_MetaData[] = {
 		{ "Category", "UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Whether to display submenus that perform plugin functions in the editor's tools menu.\n" },
+#endif
 		{ "ConfigRestartRequired", "TRUE" },
 		{ "ModuleRelativePath", "Public/GraphPrinterEditorExtension/Utilities/GraphPrinterEditorExtensionSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to display submenus that perform plugin functions in the editor's tools menu." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bShowComboButtonInToolbar_MetaData[] = {
 		{ "Category", "UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Whether to show the combo button that performs the function of the plugin in the toolbar of the asset editor.\n" },
+#endif
 		{ "ConfigRestartRequired", "TRUE" },
 		{ "ModuleRelativePath", "Public/GraphPrinterEditorExtension/Utilities/GraphPrinterEditorExtensionSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to show the combo button that performs the function of the plugin in the toolbar of the asset editor." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bShowComboButtonInStatusBar_MetaData[] = {
 		{ "Category", "UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Whether to show the combo button that performs the function of the plugin in the editor's status bar.\n" },
+#endif
 		{ "ConfigRestartRequired", "TRUE" },
 		{ "ModuleRelativePath", "Public/GraphPrinterEditorExtension/Utilities/GraphPrinterEditorExtensionSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to show the combo button that performs the function of the plugin in the editor's status bar." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bCollectTargetWidgetsAutomatically_MetaData[] = {
 		{ "Category", "UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Whether to automatically collect the target widgets when opening any type of menu.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/GraphPrinterEditorExtension/Utilities/GraphPrinterEditorExtensionSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to automatically collect the target widgets when opening any type of menu." },
+#endif
 	};
 #endif // WITH_METADATA
 	static void NewProp_bShowSubMenuInToolMenu_SetBit(void* Obj);
@@ -141,14 +161,14 @@ UGraphPrinterEditorExtensionSettings::~UGraphPrinterEditorExtensionSettings() {}
 // End Class UGraphPrinterEditorExtensionSettings
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_GraphPrinterEditorExtension_Public_GraphPrinterEditorExtension_Utilities_GraphPrinterEditorExtensionSettings_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_GraphPrinterEditorExtension_Public_GraphPrinterEditorExtension_Utilities_GraphPrinterEditorExtensionSettings_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UGraphPrinterEditorExtensionSettings, UGraphPrinterEditorExtensionSettings::StaticClass, TEXT("UGraphPrinterEditorExtensionSettings"), &Z_Registration_Info_UClass_UGraphPrinterEditorExtensionSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGraphPrinterEditorExtensionSettings), 3023399048U) },
+		{ Z_Construct_UClass_UGraphPrinterEditorExtensionSettings, UGraphPrinterEditorExtensionSettings::StaticClass, TEXT("UGraphPrinterEditorExtensionSettings"), &Z_Registration_Info_UClass_UGraphPrinterEditorExtensionSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGraphPrinterEditorExtensionSettings), 1262745876U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_GraphPrinterEditorExtension_Public_GraphPrinterEditorExtension_Utilities_GraphPrinterEditorExtensionSettings_h_3501568943(TEXT("/Script/GraphPrinterEditorExtension"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_GraphPrinterEditorExtension_Public_GraphPrinterEditorExtension_Utilities_GraphPrinterEditorExtensionSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_GraphPrinterEditorExtension_Public_GraphPrinterEditorExtension_Utilities_GraphPrinterEditorExtensionSettings_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_GraphPrinterEditorExtension_Public_GraphPrinterEditorExtension_Utilities_GraphPrinterEditorExtensionSettings_h_512120047(TEXT("/Script/GraphPrinterEditorExtension"),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_GraphPrinterEditorExtension_Public_GraphPrinterEditorExtension_Utilities_GraphPrinterEditorExtensionSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_GraphPrinterEditorExtension_Public_GraphPrinterEditorExtension_Utilities_GraphPrinterEditorExtensionSettings_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

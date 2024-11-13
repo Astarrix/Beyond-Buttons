@@ -29,23 +29,35 @@ struct Z_Construct_UClass_UGraphPrinterRemoteControlSettings_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * A editor preferences class related to the remote control of this plugin.\n */" },
+#endif
 		{ "IncludePath", "GraphPrinterRemoteControl/Utilities/GraphPrinterRemoteControlSettings.h" },
 		{ "ModuleRelativePath", "Public/GraphPrinterRemoteControl/Utilities/GraphPrinterRemoteControlSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A editor preferences class related to the remote control of this plugin." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bEnableRemoteControl_MetaData[] = {
 		{ "Category", "Remote Control" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Whether remote control via web socket is enabled.\n// Please check again when the server is rebuilt.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/GraphPrinterRemoteControl/Utilities/GraphPrinterRemoteControlSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether remote control via web socket is enabled.\nPlease check again when the server is rebuilt." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ServerURL_MetaData[] = {
 		{ "Category", "Remote Control" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Your server URL. You can use ws, wss or wss+insecure.\n// Disable remote control once to edit.\n" },
+#endif
 		{ "EditCondition", "!bEnableRemoteControl" },
 		{ "ModuleRelativePath", "Public/GraphPrinterRemoteControl/Utilities/GraphPrinterRemoteControlSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Your server URL. You can use ws, wss or wss+insecure.\nDisable remote control once to edit." },
+#endif
 	};
 #endif // WITH_METADATA
 	static void NewProp_bEnableRemoteControl_SetBit(void* Obj);
@@ -106,14 +118,14 @@ UGraphPrinterRemoteControlSettings::~UGraphPrinterRemoteControlSettings() {}
 // End Class UGraphPrinterRemoteControlSettings
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_GraphPrinterRemoteControl_Public_GraphPrinterRemoteControl_Utilities_GraphPrinterRemoteControlSettings_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_GraphPrinterRemoteControl_Public_GraphPrinterRemoteControl_Utilities_GraphPrinterRemoteControlSettings_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UGraphPrinterRemoteControlSettings, UGraphPrinterRemoteControlSettings::StaticClass, TEXT("UGraphPrinterRemoteControlSettings"), &Z_Registration_Info_UClass_UGraphPrinterRemoteControlSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGraphPrinterRemoteControlSettings), 2343502765U) },
+		{ Z_Construct_UClass_UGraphPrinterRemoteControlSettings, UGraphPrinterRemoteControlSettings::StaticClass, TEXT("UGraphPrinterRemoteControlSettings"), &Z_Registration_Info_UClass_UGraphPrinterRemoteControlSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UGraphPrinterRemoteControlSettings), 3952797331U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_GraphPrinterRemoteControl_Public_GraphPrinterRemoteControl_Utilities_GraphPrinterRemoteControlSettings_h_4270425111(TEXT("/Script/GraphPrinterRemoteControl"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_GraphPrinterRemoteControl_Public_GraphPrinterRemoteControl_Utilities_GraphPrinterRemoteControlSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_GraphPrinterRemoteControl_Public_GraphPrinterRemoteControl_Utilities_GraphPrinterRemoteControlSettings_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_GraphPrinterRemoteControl_Public_GraphPrinterRemoteControl_Utilities_GraphPrinterRemoteControlSettings_h_2807654448(TEXT("/Script/GraphPrinterRemoteControl"),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_GraphPrinterRemoteControl_Public_GraphPrinterRemoteControl_Utilities_GraphPrinterRemoteControlSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_GraphPrinterRemoteControl_Public_GraphPrinterRemoteControl_Utilities_GraphPrinterRemoteControlSettings_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

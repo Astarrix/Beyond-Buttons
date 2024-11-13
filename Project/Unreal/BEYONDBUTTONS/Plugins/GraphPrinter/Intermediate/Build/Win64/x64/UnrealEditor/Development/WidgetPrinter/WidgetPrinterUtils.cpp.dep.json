@@ -1,0 +1,20 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\source\\widgetprinter\\private\\widgetprinter\\utilities\\widgetprinterutils.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\widgetprinter\\definitions.widgetprinter.h",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\source\\widgetprinter\\public\\widgetprinter\\utilities\\widgetprinterutils.h",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\source\\widgetprinter\\public\\widgetprinter\\utilities\\castslatewidget.h",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\source\\widgetprinter\\public\\widgetprinter\\isupportedwidgetregistry.h",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\source\\widgetprinter\\public\\widgetprinter\\types\\supportedwidget.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\slate\\private\\framework\\docking\\sdockingtabstack.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\slate\\private\\framework\\docking\\sdockingnode.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\editor\\unrealed\\private\\toolkits\\sstandaloneasseteditortoolkithost.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

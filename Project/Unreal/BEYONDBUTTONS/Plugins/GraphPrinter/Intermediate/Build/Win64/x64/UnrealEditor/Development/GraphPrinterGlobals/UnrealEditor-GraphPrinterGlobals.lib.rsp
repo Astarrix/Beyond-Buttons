@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-GraphPrinterGlobals.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\W013321M\Documents\GitHub\Beyond-Buttons\Project\Unreal\BEYONDBUTTONS\Intermediate\Build\Win64\x64\UnrealEditor\Development\Slate\SharedPCH.Slate.Project.ValApi.Cpp20.h.obj"
+"C:\Users\W013321M\Documents\GitHub\Beyond-Buttons\Project\Unreal\BEYONDBUTTONS\Plugins\GraphPrinter\Intermediate\Build\Win64\x64\UnrealEditor\Development\GraphPrinterGlobals\Module.GraphPrinterGlobals.cpp.obj"
+"C:\Users\W013321M\Documents\GitHub\Beyond-Buttons\Project\Unreal\BEYONDBUTTONS\Plugins\GraphPrinter\Intermediate\Build\Win64\x64\UnrealEditor\Development\GraphPrinterGlobals\GraphPrinterGlobalsModule.cpp.obj"
+"C:\Users\W013321M\Documents\GitHub\Beyond-Buttons\Project\Unreal\BEYONDBUTTONS\Plugins\GraphPrinter\Intermediate\Build\Win64\x64\UnrealEditor\Development\GraphPrinterGlobals\GraphPrinterSettings.cpp.obj"
+"C:\Users\W013321M\Documents\GitHub\Beyond-Buttons\Project\Unreal\BEYONDBUTTONS\Plugins\GraphPrinter\Intermediate\Build\Win64\x64\UnrealEditor\Development\GraphPrinterGlobals\GraphPrinterUtils.cpp.obj"
+"C:\Users\W013321M\Documents\GitHub\Beyond-Buttons\Project\Unreal\BEYONDBUTTONS\Plugins\GraphPrinter\Intermediate\Build\Win64\x64\UnrealEditor\Development\GraphPrinterGlobals\Default.rc2.res"
+/OUT:"C:\Users\W013321M\Documents\GitHub\Beyond-Buttons\Project\Unreal\BEYONDBUTTONS\Plugins\GraphPrinter\Intermediate\Build\Win64\x64\UnrealEditor\Development\GraphPrinterGlobals\UnrealEditor-GraphPrinterGlobals.lib"

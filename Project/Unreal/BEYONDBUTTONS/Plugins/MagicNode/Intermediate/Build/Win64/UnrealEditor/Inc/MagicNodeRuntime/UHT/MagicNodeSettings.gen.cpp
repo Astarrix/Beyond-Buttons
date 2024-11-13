@@ -31,10 +31,14 @@ struct Z_Construct_UClass_UMGC_Settings_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "Category", "Synaptech" },
 		{ "ClassGroupNames", "Synaptech" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\n/// MGC Global Settings\n" },
+#endif
 		{ "IncludePath", "MagicNodeSettings.h" },
 		{ "ModuleRelativePath", "Public/MagicNodeSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MGC Global Settings" },
+#endif
 	};
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
@@ -81,14 +85,14 @@ UMGC_Settings::~UMGC_Settings() {}
 // End Class UMGC_Settings
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeSettings_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeSettings_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UMGC_Settings, UMGC_Settings::StaticClass, TEXT("UMGC_Settings"), &Z_Registration_Info_UClass_UMGC_Settings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMGC_Settings), 3498806833U) },
+		{ Z_Construct_UClass_UMGC_Settings, UMGC_Settings::StaticClass, TEXT("UMGC_Settings"), &Z_Registration_Info_UClass_UMGC_Settings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMGC_Settings), 317179753U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeSettings_h_4129402673(TEXT("/Script/MagicNodeRuntime"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeSettings_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeSettings_h_3946626192(TEXT("/Script/MagicNodeRuntime"),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeSettings_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

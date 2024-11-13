@@ -29,10 +29,14 @@ struct Z_Construct_UClass_UDetailsPanelPrinter_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * A printer class for the details panel.\n */" },
+#endif
 		{ "IncludePath", "DetailsPanelPrinter/WidgetPrinters/DetailsPanelPrinter.h" },
 		{ "ModuleRelativePath", "Public/DetailsPanelPrinter/WidgetPrinters/DetailsPanelPrinter.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A printer class for the details panel." },
+#endif
 	};
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
@@ -78,14 +82,14 @@ UDetailsPanelPrinter::~UDetailsPanelPrinter() {}
 // End Class UDetailsPanelPrinter
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_DetailsPanelPrinter_Public_DetailsPanelPrinter_WidgetPrinters_DetailsPanelPrinter_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_DetailsPanelPrinter_Public_DetailsPanelPrinter_WidgetPrinters_DetailsPanelPrinter_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UDetailsPanelPrinter, UDetailsPanelPrinter::StaticClass, TEXT("UDetailsPanelPrinter"), &Z_Registration_Info_UClass_UDetailsPanelPrinter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDetailsPanelPrinter), 3237523567U) },
+		{ Z_Construct_UClass_UDetailsPanelPrinter, UDetailsPanelPrinter::StaticClass, TEXT("UDetailsPanelPrinter"), &Z_Registration_Info_UClass_UDetailsPanelPrinter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDetailsPanelPrinter), 1870177585U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_DetailsPanelPrinter_Public_DetailsPanelPrinter_WidgetPrinters_DetailsPanelPrinter_h_4161099640(TEXT("/Script/DetailsPanelPrinter"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_DetailsPanelPrinter_Public_DetailsPanelPrinter_WidgetPrinters_DetailsPanelPrinter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_DetailsPanelPrinter_Public_DetailsPanelPrinter_WidgetPrinters_DetailsPanelPrinter_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_DetailsPanelPrinter_Public_DetailsPanelPrinter_WidgetPrinters_DetailsPanelPrinter_h_2724756502(TEXT("/Script/DetailsPanelPrinter"),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_DetailsPanelPrinter_Public_DetailsPanelPrinter_WidgetPrinters_DetailsPanelPrinter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_DetailsPanelPrinter_Public_DetailsPanelPrinter_WidgetPrinters_DetailsPanelPrinter_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

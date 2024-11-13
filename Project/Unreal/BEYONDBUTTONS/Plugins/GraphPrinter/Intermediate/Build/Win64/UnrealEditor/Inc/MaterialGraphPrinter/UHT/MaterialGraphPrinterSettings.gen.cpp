@@ -30,16 +30,24 @@ struct Z_Construct_UClass_UMaterialGraphPrinterSettings_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * A class that sets the default values for UPrintMaterialGraphOptions from the editor preferences.\n */" },
+#endif
 		{ "IncludePath", "MaterialGraphPrinter/Utilities/MaterialGraphPrinterSettings.h" },
 		{ "ModuleRelativePath", "Public/MaterialGraphPrinter/Utilities/MaterialGraphPrinterSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A class that sets the default values for UPrintMaterialGraphOptions from the editor preferences." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaterialGraphExportMethod_MetaData[] = {
 		{ "Category", "Material Editor" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// How to output a graph in the material editor.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/MaterialGraphPrinter/Utilities/MaterialGraphPrinterSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How to output a graph in the material editor." },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FBytePropertyParams NewProp_MaterialGraphExportMethod_Underlying;
@@ -52,7 +60,7 @@ struct Z_Construct_UClass_UMaterialGraphPrinterSettings_Statics
 	static const UECodeGen_Private::FClassParams ClassParams;
 };
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_UMaterialGraphPrinterSettings_Statics::NewProp_MaterialGraphExportMethod_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UMaterialGraphPrinterSettings_Statics::NewProp_MaterialGraphExportMethod = { "MaterialGraphExportMethod", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UMaterialGraphPrinterSettings, MaterialGraphExportMethod), Z_Construct_UEnum_MaterialGraphPrinter_EMaterialGraphExportMethod, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaterialGraphExportMethod_MetaData), NewProp_MaterialGraphExportMethod_MetaData) }; // 2258277287
+const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UMaterialGraphPrinterSettings_Statics::NewProp_MaterialGraphExportMethod = { "MaterialGraphExportMethod", nullptr, (EPropertyFlags)0x0010000000004001, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UMaterialGraphPrinterSettings, MaterialGraphExportMethod), Z_Construct_UEnum_MaterialGraphPrinter_EMaterialGraphExportMethod, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MaterialGraphExportMethod_MetaData), NewProp_MaterialGraphExportMethod_MetaData) }; // 2836918396
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UMaterialGraphPrinterSettings_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMaterialGraphPrinterSettings_Statics::NewProp_MaterialGraphExportMethod_Underlying,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UMaterialGraphPrinterSettings_Statics::NewProp_MaterialGraphExportMethod,
@@ -95,14 +103,14 @@ UMaterialGraphPrinterSettings::~UMaterialGraphPrinterSettings() {}
 // End Class UMaterialGraphPrinterSettings
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_MaterialGraphPrinter_Public_MaterialGraphPrinter_Utilities_MaterialGraphPrinterSettings_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_MaterialGraphPrinter_Public_MaterialGraphPrinter_Utilities_MaterialGraphPrinterSettings_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UMaterialGraphPrinterSettings, UMaterialGraphPrinterSettings::StaticClass, TEXT("UMaterialGraphPrinterSettings"), &Z_Registration_Info_UClass_UMaterialGraphPrinterSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMaterialGraphPrinterSettings), 4045553346U) },
+		{ Z_Construct_UClass_UMaterialGraphPrinterSettings, UMaterialGraphPrinterSettings::StaticClass, TEXT("UMaterialGraphPrinterSettings"), &Z_Registration_Info_UClass_UMaterialGraphPrinterSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMaterialGraphPrinterSettings), 3084948962U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_MaterialGraphPrinter_Public_MaterialGraphPrinter_Utilities_MaterialGraphPrinterSettings_h_657379575(TEXT("/Script/MaterialGraphPrinter"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_MaterialGraphPrinter_Public_MaterialGraphPrinter_Utilities_MaterialGraphPrinterSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_MaterialGraphPrinter_Public_MaterialGraphPrinter_Utilities_MaterialGraphPrinterSettings_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_MaterialGraphPrinter_Public_MaterialGraphPrinter_Utilities_MaterialGraphPrinterSettings_h_1799153775(TEXT("/Script/MaterialGraphPrinter"),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_MaterialGraphPrinter_Public_MaterialGraphPrinter_Utilities_MaterialGraphPrinterSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_MaterialGraphPrinter_Public_MaterialGraphPrinter_Utilities_MaterialGraphPrinterSettings_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

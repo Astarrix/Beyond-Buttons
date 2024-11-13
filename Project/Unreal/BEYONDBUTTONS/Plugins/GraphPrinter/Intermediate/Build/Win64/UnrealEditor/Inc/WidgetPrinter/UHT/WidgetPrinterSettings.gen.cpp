@@ -33,70 +33,110 @@ struct Z_Construct_UClass_UWidgetPrinterSettings_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * A class that sets the default values for UPrintWidgetOptions from the editor preferences.\n */" },
+#endif
 		{ "IncludePath", "WidgetPrinter/Utilities/WidgetPrinterSettings.h" },
 		{ "ModuleRelativePath", "Public/WidgetPrinter/Utilities/WidgetPrinterSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "A class that sets the default values for UPrintWidgetOptions from the editor preferences." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bIsIncludeWidgetInfoInImageFile_MetaData[] = {
 		{ "Category", "Image" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Whether to embed the widget information in the image file.\n// When this option is enabled, the image formats that can be selected are limited.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/WidgetPrinter/Utilities/WidgetPrinterSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to embed the widget information in the image file.\nWhen this option is enabled, the image formats that can be selected are limited." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Format_MetaData[] = {
 		{ "Category", "Image" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// The desired output image format to write to disk.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/WidgetPrinter/Utilities/WidgetPrinterSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The desired output image format to write to disk." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CompressionQuality_MetaData[] = {
 		{ "Category", "Image" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// The image format specific compression setting. Either 0 (Default) or 1 (Uncompressed) for EXRs, or a value between 0 and 100.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/WidgetPrinter/Utilities/WidgetPrinterSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The image format specific compression setting. Either 0 (Default) or 1 (Uncompressed) for EXRs, or a value between 0 and 100." },
+#endif
 		{ "UIMax", "100" },
 		{ "UIMin", "0" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FilteringMode_MetaData[] = {
 		{ "Category", "Image" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// The texture filtering mode to use when outputting.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/WidgetPrinter/Utilities/WidgetPrinterSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The texture filtering mode to use when outputting." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bUseGamma_MetaData[] = {
 		{ "Category", "Image" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Whether to output the drawing result affected by the gamma value.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/WidgetPrinter/Utilities/WidgetPrinterSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to output the drawing result affected by the gamma value." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MaxImageSize_MetaData[] = {
 		{ "Category", "Image" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// The maximum size of the output image.\n// There is no limit at (0.f, 0.f).\n// If set it too high, you may run out of video memory and crash.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/WidgetPrinter/Utilities/WidgetPrinterSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The maximum size of the output image.\nThere is no limit at (0.f, 0.f).\nIf set it too high, you may run out of video memory and crash." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RenderingScale_MetaData[] = {
 		{ "Category", "Image" },
 		{ "ClampMax", "1.000000" },
 		{ "ClampMin", "0.100000" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// The drawing scale of the output image.\n// Decrease the value if you want to draw a graph larger than MaxImageSize.\n// Decreasing the value may cause defects in the drawing result.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/WidgetPrinter/Utilities/WidgetPrinterSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The drawing scale of the output image.\nDecrease the value if you want to draw a graph larger than MaxImageSize.\nDecreasing the value may cause defects in the drawing result." },
+#endif
 		{ "UIMax", "1.000000" },
 		{ "UIMin", "0.100000" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bCanOverwriteFileWhenExport_MetaData[] = {
 		{ "Category", "File" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// Whether to overwrite the image if it already exists when export.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/WidgetPrinter/Utilities/WidgetPrinterSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Whether to overwrite the image if it already exists when export." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OutputDirectory_MetaData[] = {
 		{ "Category", "File" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "// The directory path where the image file is output.\n" },
+#endif
 		{ "ModuleRelativePath", "Public/WidgetPrinter/Utilities/WidgetPrinterSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The directory path where the image file is output." },
+#endif
 	};
 #endif // WITH_METADATA
 	static void NewProp_bIsIncludeWidgetInfoInImageFile_SetBit(void* Obj);
@@ -191,14 +231,14 @@ UWidgetPrinterSettings::~UWidgetPrinterSettings() {}
 // End Class UWidgetPrinterSettings
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_WidgetPrinter_Public_WidgetPrinter_Utilities_WidgetPrinterSettings_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_WidgetPrinter_Public_WidgetPrinter_Utilities_WidgetPrinterSettings_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UWidgetPrinterSettings, UWidgetPrinterSettings::StaticClass, TEXT("UWidgetPrinterSettings"), &Z_Registration_Info_UClass_UWidgetPrinterSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UWidgetPrinterSettings), 1574868865U) },
+		{ Z_Construct_UClass_UWidgetPrinterSettings, UWidgetPrinterSettings::StaticClass, TEXT("UWidgetPrinterSettings"), &Z_Registration_Info_UClass_UWidgetPrinterSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UWidgetPrinterSettings), 3100609941U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_WidgetPrinter_Public_WidgetPrinter_Utilities_WidgetPrinterSettings_h_2469673941(TEXT("/Script/WidgetPrinter"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_WidgetPrinter_Public_WidgetPrinter_Utilities_WidgetPrinterSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_WidgetPrinter_Public_WidgetPrinter_Utilities_WidgetPrinterSettings_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_WidgetPrinter_Public_WidgetPrinter_Utilities_WidgetPrinterSettings_h_187580607(TEXT("/Script/WidgetPrinter"),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_WidgetPrinter_Public_WidgetPrinter_Utilities_WidgetPrinterSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_WidgetPrinter_Public_WidgetPrinter_Utilities_WidgetPrinterSettings_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

@@ -1,0 +1,34 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\source\\materialgraphprinter\\private\\materialgraphprinter\\types\\printmaterialgraphoptions.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\materialgraphprinter\\definitions.materialgraphprinter.h",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\source\\materialgraphprinter\\public\\materialgraphprinter\\types\\printmaterialgraphoptions.h",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\source\\genericgraphprinter\\public\\genericgraphprinter\\types\\printgraphoptions.h",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\source\\widgetprinter\\public\\widgetprinter\\types\\printwidgetoptions.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\serialization\\testundeclaredscriptstructobjectreferences.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\imagewritequeue\\public\\imagewriteblueprintlibrary.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\imagewritequeue\\public\\imagewritetypes.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\imagewritequeue\\uht\\imagewritetypes.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\imagewritequeue\\uht\\imagewriteblueprintlibrary.generated.h",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\source\\graphprinterglobals\\public\\graphprinterglobals\\graphprinterglobals.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\core\\public\\misc\\engineversioncomparison.h",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\intermediate\\build\\win64\\unrealeditor\\inc\\widgetprinter\\uht\\printwidgetoptions.generated.h",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\intermediate\\build\\win64\\unrealeditor\\inc\\genericgraphprinter\\uht\\printgraphoptions.generated.h",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\source\\materialgraphprinter\\public\\materialgraphprinter\\types\\materialgraphexportmethod.h",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\intermediate\\build\\win64\\unrealeditor\\inc\\materialgraphprinter\\uht\\materialgraphexportmethod.generated.h",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\intermediate\\build\\win64\\unrealeditor\\inc\\materialgraphprinter\\uht\\printmaterialgraphoptions.generated.h",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\intermediate\\build\\win64\\unrealeditor\\inc\\materialgraphprinter\\uht\\printmaterialgraphoptions.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

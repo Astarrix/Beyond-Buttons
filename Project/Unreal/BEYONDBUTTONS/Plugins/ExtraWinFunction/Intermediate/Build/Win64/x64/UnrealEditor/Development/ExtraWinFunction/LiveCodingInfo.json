@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.ExtraWinFunction.cpp.obj": [
+			"ExtraWinFunction.init.gen.cpp.obj",
+			"ExtraWinFunctionBPLibrary.gen.cpp.obj",
+			"ExtraWinFunction.cpp.obj",
+			"ExtraWinFunctionBPLibrary.cpp.obj"
+		]
+	}
+}

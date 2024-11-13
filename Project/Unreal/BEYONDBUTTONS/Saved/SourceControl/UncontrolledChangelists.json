@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Plugins/DarkerNodes/Content/Materials/SolidColor.uasset",
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Plugins/DarkerNodes/Content/Materials/Box.uasset",
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Plugins/DarkerNodes/Content/Materials/HeaderBox.uasset",
+				"C:/Users/W013321M/Documents/GitHub/Beyond-Buttons/Project/Unreal/BEYONDBUTTONS/Plugins/DarkerNodes/Content/Materials/Panel.uasset"
+			]
+		}
+	]
+}

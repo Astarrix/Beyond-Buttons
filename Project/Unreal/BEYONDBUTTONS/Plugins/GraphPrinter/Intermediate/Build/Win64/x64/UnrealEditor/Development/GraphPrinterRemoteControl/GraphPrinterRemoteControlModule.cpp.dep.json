@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\source\\graphprinterremotecontrol\\private\\graphprinterremotecontrol\\graphprinterremotecontrolmodule.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\graphprinterremotecontrol\\definitions.graphprinterremotecontrol.h",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\source\\graphprinterremotecontrol\\private\\graphprinterremotecontrol\\websockets\\graphprinterremotecontrolreceiver.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -32,12 +32,18 @@ struct Z_Construct_UScriptStruct_FMGC_SourceCode_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Struct_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\n/// MGC Script Data Types (Editor-Only):\n" },
+#endif
 		{ "ModuleRelativePath", "Public/MagicNodeDataTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MGC Script Data Types (Editor-Only):" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Header_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n" },
+#endif
 		{ "ModuleRelativePath", "Public/MagicNodeDataTypes.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Script_MetaData[] = {
@@ -48,7 +54,9 @@ struct Z_Construct_UScriptStruct_FMGC_SourceCode_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Includes_MetaData[] = {
 		{ "Category", "MagicNode" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n" },
+#endif
 		{ "ModuleRelativePath", "Public/MagicNodeDataTypes.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Macros_MetaData[] = {
@@ -111,15 +119,15 @@ UScriptStruct* Z_Construct_UScriptStruct_FMGC_SourceCode()
 // End ScriptStruct FMGC_SourceCode
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeDataTypes_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeDataTypes_h_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ FMGC_SourceCode::StaticStruct, Z_Construct_UScriptStruct_FMGC_SourceCode_Statics::NewStructOps, TEXT("MGC_SourceCode"), &Z_Registration_Info_UScriptStruct_MGC_SourceCode, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMGC_SourceCode), 2426688733U) },
+		{ FMGC_SourceCode::StaticStruct, Z_Construct_UScriptStruct_FMGC_SourceCode_Statics::NewStructOps, TEXT("MGC_SourceCode"), &Z_Registration_Info_UScriptStruct_MGC_SourceCode, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FMGC_SourceCode), 1374001970U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeDataTypes_h_1463639877(TEXT("/Script/MagicNodeRuntime"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeDataTypes_h_3464756354(TEXT("/Script/MagicNodeRuntime"),
 	nullptr, 0,
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeDataTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeDataTypes_h_Statics::ScriptStructInfo),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeDataTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeRuntime_Public_MagicNodeDataTypes_h_Statics::ScriptStructInfo),
 	nullptr, 0);
 // End Registration
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

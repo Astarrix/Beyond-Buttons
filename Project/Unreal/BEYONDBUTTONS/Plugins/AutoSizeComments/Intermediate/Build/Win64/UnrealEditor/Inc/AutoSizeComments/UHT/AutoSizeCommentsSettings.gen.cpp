@@ -559,410 +559,670 @@ struct Z_Construct_UClass_UAutoSizeCommentsSettings_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DefaultFontSize_MetaData[] = {
 		{ "Category", "UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The default font size for comment boxes */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The default font size for comment boxes" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bUseDefaultFontSize_MetaData[] = {
 		{ "Category", "UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If enabled, all nodes will be changed to the default font size (unless they are a preset or floating node) */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If enabled, all nodes will be changed to the default font size (unless they are a preset or floating node)" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DefaultCommentColorMethod_MetaData[] = {
 		{ "Category", "Color" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** How to color the comment when creating the node */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How to color the comment when creating the node" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HeaderColorMethod_MetaData[] = {
 		{ "Category", "Color" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** How to color the comment when pressing the `Toggle Header` button */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "How to color the comment when pressing the `Toggle Header` button" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DefaultCommentColor_MetaData[] = {
 		{ "Category", "Color" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If Use Random Color is not enabled, comment boxes will spawn with this default color */" },
+#endif
 		{ "EditCondition", "DefaultCommentColorMethod==EASCDefaultCommentColorMethod::Default" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If Use Random Color is not enabled, comment boxes will spawn with this default color" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bAggressivelyUseDefaultColor_MetaData[] = {
 		{ "Category", "Color" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set all comments on the graph to the default color */" },
+#endif
 		{ "EditCondition", "DefaultCommentColorMethod==EASCDefaultCommentColorMethod::Default" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set all comments on the graph to the default color" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RandomColorOpacity_MetaData[] = {
 		{ "Category", "Color" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Opacity used for the random color */" },
+#endif
 		{ "EditCondition", "DefaultCommentColorMethod==EASCDefaultCommentColorMethod::Random" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Opacity used for the random color" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bUseRandomColorFromList_MetaData[] = {
 		{ "Category", "Color" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If enabled, select a random color from predefined list */" },
+#endif
 		{ "EditCondition", "DefaultCommentColorMethod==EASCDefaultCommentColorMethod::Random" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If enabled, select a random color from predefined list" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PredefinedRandomColorList_MetaData[] = {
 		{ "Category", "Color" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If UseRandomColorFromList is enabled, new comments will select a color from one of these */" },
+#endif
 		{ "EditCondition", "bUseRandomColorFromList && DefaultCommentColorMethod==EASCDefaultCommentColorMethod::Random" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If UseRandomColorFromList is enabled, new comments will select a color from one of these" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MinimumControlOpacity_MetaData[] = {
 		{ "Category", "Color" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Minimum opacity for comment box controls when not hovered */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Minimum opacity for comment box controls when not hovered" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_HeaderStyle_MetaData[] = {
 		{ "Category", "Styles" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Style for header comment boxes */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Style for header comment boxes" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_PresetStyles_MetaData[] = {
 		{ "Category", "Styles" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Preset styles (each style will have its own button on the comment box) */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Preset styles (each style will have its own button on the comment box)" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TaggedPresets_MetaData[] = {
 		{ "Category", "Styles" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Preset style that will apply if the title starts with the according prefix */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Preset style that will apply if the title starts with the according prefix" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bUseMinimalTitlebarStyle_MetaData[] = {
 		{ "Category", "UI" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The title bar uses a minimal style when being edited (requires UE5 or later) */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The title bar uses a minimal style when being edited (requires UE5 or later)" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bHideCommentBubble_MetaData[] = {
 		{ "Category", "CommentBubble" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Always hide the comment bubble */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Always hide the comment bubble" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bEnableCommentBubbleDefaults_MetaData[] = {
 		{ "Category", "CommentBubble" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Set default values for comment bubble */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Set default values for comment bubble" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bDefaultColorCommentBubble_MetaData[] = {
 		{ "Category", "CommentBubble" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Default value for \"Color Bubble\" */" },
+#endif
 		{ "EditCondition", "bEnableCommentBubbleDefaults" },
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Default value for \"Color Bubble\"" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bDefaultShowBubbleWhenZoomed_MetaData[] = {
 		{ "Category", "CommentBubble" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Default value for \"Show Bubble When Zoomed\" */" },
+#endif
 		{ "EditCondition", "bEnableCommentBubbleDefaults" },
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Default value for \"Show Bubble When Zoomed\"" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ResizingMode_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The auto resizing behavior for comments (always: on tick | reactive: upon detecting node movement) */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The auto resizing behavior for comments (always: on tick | reactive: upon detecting node movement)" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ResizeToFitWhenDisabled_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Should the comment resize to fit after running user commands in disabled mode */" },
+#endif
 		{ "EditCondition", "ResizingMode == EASCResizingMode::Disabled" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Should the comment resize to fit after running user commands in disabled mode" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AutoInsertComment_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Determines when to insert newly created nodes into existing comments */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Determines when to insert newly created nodes into existing comments" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bAutoRenameNewComments_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** When a user places a comment, give keyboard focus to the title bar so it can be easily renamed */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When a user places a comment, give keyboard focus to the title bar so it can be easily renamed" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bSelectNodeWhenClickingOnPin_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** When you click a node's pin, also select the node (required for AutoInsertComment to function correctly) */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When you click a node's pin, also select the node (required for AutoInsertComment to function correctly)" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CommentNodePadding_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Amount of padding for around the contents of a comment node */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Amount of padding for around the contents of a comment node" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CommentTextPadding_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Amount of padding around the comment title text */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Amount of padding around the comment title text" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MinimumVerticalPadding_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Minimum vertical padding above and below the node */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Minimum vertical padding above and below the node" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CommentTextAlignment_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Comment text alignment */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Comment text alignment" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bUseCommentBubbleBounds_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If enabled, add any containing node's comment bubble to the comment bounds */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If enabled, add any containing node's comment bubble to the comment bounds" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bMoveEmptyCommentBoxes_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If enabled, empty comment boxes will move out of the way of other comment boxes */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If enabled, empty comment boxes will move out of the way of other comment boxes" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EmptyCommentBoxSpeed_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** The speed at which empty comment boxes move */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "The speed at which empty comment boxes move" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CacheSaveMethod_MetaData[] = {
 		{ "Category", "CommentCache" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Choose cache save method: as an external file or inside the package's metadata */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Choose cache save method: as an external file or inside the package's metadata" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CacheSaveLocation_MetaData[] = {
 		{ "Category", "CommentCache" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Choose where to save the json file: project or plugin folder */" },
+#endif
 		{ "EditCondition", "CacheSaveMethod == EASCCacheSaveMethod::File" },
 		{ "EditConditionHides", "" },
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Choose where to save the json file: project or plugin folder" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bSaveCommentDataOnSavingGraph_MetaData[] = {
 		{ "Category", "CommentCache" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If enabled, nodes will be saved to file when the graph is saved */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If enabled, nodes will be saved to file when the graph is saved" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bSaveCommentDataOnExit_MetaData[] = {
 		{ "Category", "CommentCache" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If enabled, nodes will be saved to file when the program is exited */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If enabled, nodes will be saved to file when the program is exited" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bPrettyPrintCommentCacheJSON_MetaData[] = {
 		{ "Category", "CommentCache" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** If enabled, cache file JSON text will be made more human-readable, but increases file size */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "If enabled, cache file JSON text will be made more human-readable, but increases file size" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bApplyColorToExistingNodes_MetaData[] = {
 		{ "Category", "Initialization" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** When opening a new graph, existing comments will apply default color settings (suggest disabled) */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When opening a new graph, existing comments will apply default color settings (suggest disabled)" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bResizeExistingNodes_MetaData[] = {
 		{ "Category", "Initialization" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** When opening a new graph, existing comments will try to fit to their overlapping nodes (suggest disabled) */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "When opening a new graph, existing comments will try to fit to their overlapping nodes (suggest disabled)" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bDetectNodesContainedForNewComments_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Commments will detect and add nodes are underneath on creation */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Commments will detect and add nodes are underneath on creation" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ResizeChord_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Mouse input chord to resize a node */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Mouse input chord to resize a node" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_EnableCommentControlsKey_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Input key to enable comment controls */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Input key to enable comment controls" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ResizeCollisionMethod_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Collision method to use when resizing comment nodes */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Collision method to use when resizing comment nodes" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AltCollisionMethod_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Collision method to use when releasing alt */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Collision method to use when releasing alt" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bSnapToGridWhileResizing_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Snap to the grid when resizing the node */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Snap to the grid when resizing the node" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bIgnoreKnotNodes_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Don't add knot nodes to comment boxes */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Don't add knot nodes to comment boxes" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bIgnoreKnotNodesWhenPressingAlt_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Don't add knot nodes to comment boxes */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Don't add knot nodes to comment boxes" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bIgnoreKnotNodesWhenResizing_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Don't add knot nodes to comment boxes */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Don't add knot nodes to comment boxes" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bIgnoreSelectedNodesOnCreation_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Don't snap to selected nodes on creation */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Don't snap to selected nodes on creation" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bRefreshContainingNodesOnMove_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Refresh the nodes inside the comment when you start moving the comment */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Refresh the nodes inside the comment when you start moving the comment" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bDisableTooltip_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Disable the tooltip when hovering the titlebar */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Disable the tooltip when hovering the titlebar" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bHighlightContainingNodesOnSelection_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Highlight the contained node for a comment when you select it */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Highlight the contained node for a comment when you select it" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bUseMaxDetailNodes_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Force the graph panel to use the 1:1 LOD for nodes (UE 5.0+) */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Force the graph panel to use the 1:1 LOD for nodes (UE 5.0+)" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_IgnoredGraphs_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Do not use ASC node for these graphs, turn on DebugClass_ASC and open graph to find graph class name */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Do not use ASC node for these graphs, turn on DebugClass_ASC and open graph to find graph class name" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_GraphSettingsOverride_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Override settings (resizing mode) for these graph types */" },
+#endif
 		{ "ForceInlineRow", "" },
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Override settings (resizing mode) for these graph types" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bSuppressSuggestedSettings_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Hide prompt for suggested settings with Blueprint Assist plugin */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Hide prompt for suggested settings with Blueprint Assist plugin" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bSuppressSourceControlNotification_MetaData[] = {
 		{ "Category", "Misc" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Hide prompt for suggested settings when source control is enabled*/" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Hide prompt for suggested settings when source control is enabled" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ResizeCornerAnchorSize_MetaData[] = {
 		{ "Category", "Controls" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Size of the corner resizing anchors */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Size of the corner resizing anchors" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ResizeSidePadding_MetaData[] = {
 		{ "Category", "Controls" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Padding to activate resizing on the side of a comment */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Padding to activate resizing on the side of a comment" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bHideResizeButton_MetaData[] = {
 		{ "Category", "Controls" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Hide the resize button */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Hide the resize button" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bHideHeaderButton_MetaData[] = {
 		{ "Category", "Controls" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Hide the header button */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Hide the header button" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bHidePresets_MetaData[] = {
 		{ "Category", "Controls" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Hide the preset buttons */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Hide the preset buttons" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bHideRandomizeButton_MetaData[] = {
 		{ "Category", "Controls" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Hide the randomize color button */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Hide the randomize color button" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bHideCommentBoxControls_MetaData[] = {
 		{ "Category", "Controls" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Hide controls at the bottom of the comment box */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Hide controls at the bottom of the comment box" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bHideCornerPoints_MetaData[] = {
 		{ "Category", "Controls" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Hide the corner points (resize still enabled) */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Hide the corner points (resize still enabled)" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bEnableFixForSortDepthIssue_MetaData[] = {
 		{ "Category", "Experimental" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Experimental fix for sort depth issue in UE5 (unable to move nested nodes until you compile the blueprint) */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Experimental fix for sort depth issue in UE5 (unable to move nested nodes until you compile the blueprint)" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bDebugGraph_ASC_MetaData[] = {
 		{ "Category", "Debug" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Print info about the graph when opening a graph */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Print info about the graph when opening a graph" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bDisablePackageCleanup_MetaData[] = {
 		{ "Category", "Debug" },
@@ -970,9 +1230,13 @@ struct Z_Construct_UClass_UAutoSizeCommentsSettings_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bDisableASCGraphNode_MetaData[] = {
 		{ "Category", "Debug" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Use the default Unreal comment node */" },
+#endif
 		{ "ModuleRelativePath", "Public/AutoSizeCommentsSettings.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Use the default Unreal comment node" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FIntPropertyParams NewProp_DefaultFontSize;
@@ -1468,7 +1732,7 @@ UAutoSizeCommentsSettings::~UAutoSizeCommentsSettings() {}
 // End Class UAutoSizeCommentsSettings
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsSettings_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsSettings_h_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
 		{ EASCCacheSaveMethod_StaticEnum, TEXT("EASCCacheSaveMethod"), &Z_Registration_Info_UEnum_EASCCacheSaveMethod, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 1189259036U) },
@@ -1483,12 +1747,12 @@ struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTe
 		{ FASCGraphSettings::StaticStruct, Z_Construct_UScriptStruct_FASCGraphSettings_Statics::NewStructOps, TEXT("ASCGraphSettings"), &Z_Registration_Info_UScriptStruct_ASCGraphSettings, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FASCGraphSettings), 937590685U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UAutoSizeCommentsSettings, UAutoSizeCommentsSettings::StaticClass, TEXT("UAutoSizeCommentsSettings"), &Z_Registration_Info_UClass_UAutoSizeCommentsSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAutoSizeCommentsSettings), 2469487200U) },
+		{ Z_Construct_UClass_UAutoSizeCommentsSettings, UAutoSizeCommentsSettings::StaticClass, TEXT("UAutoSizeCommentsSettings"), &Z_Registration_Info_UClass_UAutoSizeCommentsSettings, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UAutoSizeCommentsSettings), 3013315547U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsSettings_h_4147038514(TEXT("/Script/AutoSizeComments"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsSettings_h_Statics::ClassInfo),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsSettings_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsSettings_h_Statics::ScriptStructInfo),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsSettings_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsSettings_h_Statics::EnumInfo));
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsSettings_h_690078183(TEXT("/Script/AutoSizeComments"),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsSettings_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsSettings_h_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsSettings_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsSettings_h_Statics::ScriptStructInfo),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsSettings_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_AutoSizeComments_Source_AutoSizeComments_Public_AutoSizeCommentsSettings_h_Statics::EnumInfo));
 // End Registration
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

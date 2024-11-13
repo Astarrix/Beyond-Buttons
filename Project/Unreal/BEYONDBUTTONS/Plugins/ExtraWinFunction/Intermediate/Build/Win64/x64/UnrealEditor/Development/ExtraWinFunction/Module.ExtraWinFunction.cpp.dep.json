@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\extrawinfunction\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\extrawinfunction\\module.extrawinfunction.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\extrawinfunction\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\extrawinfunction\\definitions.extrawinfunction.h",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\extrawinfunction\\intermediate\\build\\win64\\unrealeditor\\inc\\extrawinfunction\\uht\\extrawinfunction.init.gen.cpp",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\extrawinfunction\\intermediate\\build\\win64\\unrealeditor\\inc\\extrawinfunction\\uht\\extrawinfunctionbplibrary.gen.cpp",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\extrawinfunction\\source\\extrawinfunction\\public\\extrawinfunctionbplibrary.h",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\extrawinfunction\\intermediate\\build\\win64\\unrealeditor\\inc\\extrawinfunction\\uht\\extrawinfunctionbplibrary.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

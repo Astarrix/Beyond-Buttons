@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ReferenceViewerPrinter.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\W013321M\Documents\GitHub\Beyond-Buttons\Project\Unreal\BEYONDBUTTONS\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\W013321M\Documents\GitHub\Beyond-Buttons\Project\Unreal\BEYONDBUTTONS\Plugins\GraphPrinter\Intermediate\Build\Win64\x64\UnrealEditor\Development\ReferenceViewerPrinter\Module.ReferenceViewerPrinter.cpp.obj"
+"C:\Users\W013321M\Documents\GitHub\Beyond-Buttons\Project\Unreal\BEYONDBUTTONS\Plugins\GraphPrinter\Intermediate\Build\Win64\x64\UnrealEditor\Development\ReferenceViewerPrinter\ReferenceViewerPrinterModule.cpp.obj"
+"C:\Users\W013321M\Documents\GitHub\Beyond-Buttons\Project\Unreal\BEYONDBUTTONS\Plugins\GraphPrinter\Intermediate\Build\Win64\x64\UnrealEditor\Development\ReferenceViewerPrinter\InnerReferenceViewerPrinter.cpp.obj"
+"C:\Users\W013321M\Documents\GitHub\Beyond-Buttons\Project\Unreal\BEYONDBUTTONS\Plugins\GraphPrinter\Intermediate\Build\Win64\x64\UnrealEditor\Development\ReferenceViewerPrinter\ReferenceViewerPrinter.cpp.obj"
+"C:\Users\W013321M\Documents\GitHub\Beyond-Buttons\Project\Unreal\BEYONDBUTTONS\Plugins\GraphPrinter\Intermediate\Build\Win64\x64\UnrealEditor\Development\ReferenceViewerPrinter\Default.rc2.res"
+/OUT:"C:\Users\W013321M\Documents\GitHub\Beyond-Buttons\Project\Unreal\BEYONDBUTTONS\Plugins\GraphPrinter\Intermediate\Build\Win64\x64\UnrealEditor\Development\ReferenceViewerPrinter\UnrealEditor-ReferenceViewerPrinter.lib"

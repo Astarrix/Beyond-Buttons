@@ -1,0 +1,16 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\magicnode\\source\\magicnoderuntime\\private\\magicnodelogger.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\magicnode\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\magicnoderuntime\\pch.magicnoderuntime.h.pch",
+        "Includes": [
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\magicnode\\source\\magicnoderuntime\\public\\magicnodelogger.h",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\magicnode\\intermediate\\build\\win64\\unrealeditor\\inc\\magicnoderuntime\\uht\\magicnodelogger.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\core\\public\\logging\\messagelog.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\core\\public\\logging\\tokenizedmessage.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

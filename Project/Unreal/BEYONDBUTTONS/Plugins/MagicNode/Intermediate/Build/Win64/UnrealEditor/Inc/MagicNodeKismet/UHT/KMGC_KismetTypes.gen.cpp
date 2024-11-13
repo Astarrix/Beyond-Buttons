@@ -366,7 +366,9 @@ struct Z_Construct_UScriptStruct_FPropertyDefinition_Statics
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReturnType_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Tooltip_MetaData[] = {
@@ -457,7 +459,9 @@ struct Z_Construct_UScriptStruct_FFunctionDefinition_Statics
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TypeOf_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_StackOf_MetaData[] = {
@@ -470,14 +474,18 @@ struct Z_Construct_UScriptStruct_FFunctionDefinition_Statics
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Inputs_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Outputs_MetaData[] = {
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ReturnType_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Tooltip_MetaData[] = {
@@ -586,14 +594,18 @@ struct Z_Construct_UScriptStruct_FClassDefinition_Statics
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Variables_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Functions_MetaData[] = {
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ParentClass_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Tooltip_MetaData[] = {
@@ -619,12 +631,12 @@ struct Z_Construct_UScriptStruct_FClassDefinition_Statics
 	}
 	static const UECodeGen_Private::FStructParams StructParams;
 };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FClassDefinition_Statics::NewProp_Variables_ValueProp = { "Variables", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FPropertyDefinition, METADATA_PARAMS(0, nullptr) }; // 1637536480
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FClassDefinition_Statics::NewProp_Variables_ValueProp = { "Variables", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FPropertyDefinition, METADATA_PARAMS(0, nullptr) }; // 165694290
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FClassDefinition_Statics::NewProp_Variables_Key_KeyProp = { "Variables_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FClassDefinition_Statics::NewProp_Variables = { "Variables", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FClassDefinition, Variables), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Variables_MetaData), NewProp_Variables_MetaData) }; // 1637536480
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FClassDefinition_Statics::NewProp_Functions_ValueProp = { "Functions", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FFunctionDefinition, METADATA_PARAMS(0, nullptr) }; // 272213947
+const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FClassDefinition_Statics::NewProp_Variables = { "Variables", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FClassDefinition, Variables), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Variables_MetaData), NewProp_Variables_MetaData) }; // 165694290
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FClassDefinition_Statics::NewProp_Functions_ValueProp = { "Functions", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FFunctionDefinition, METADATA_PARAMS(0, nullptr) }; // 1073733200
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FClassDefinition_Statics::NewProp_Functions_Key_KeyProp = { "Functions_Key", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FClassDefinition_Statics::NewProp_Functions = { "Functions", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FClassDefinition, Functions), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Functions_MetaData), NewProp_Functions_MetaData) }; // 272213947
+const UECodeGen_Private::FMapPropertyParams Z_Construct_UScriptStruct_FClassDefinition_Statics::NewProp_Functions = { "Functions", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FClassDefinition, Functions), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Functions_MetaData), NewProp_Functions_MetaData) }; // 1073733200
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FClassDefinition_Statics::NewProp_ParentClass = { "ParentClass", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FClassDefinition, ParentClass), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ParentClass_MetaData), NewProp_ParentClass_MetaData) };
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FClassDefinition_Statics::NewProp_Tooltip = { "Tooltip", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FClassDefinition, Tooltip), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Tooltip_MetaData), NewProp_Tooltip_MetaData) };
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FClassDefinition_Statics::NewProp_Hint = { "Hint", nullptr, (EPropertyFlags)0x0010000000000000, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(FClassDefinition, Hint), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Hint_MetaData), NewProp_Hint_MetaData) };
@@ -684,7 +696,9 @@ struct Z_Construct_UScriptStruct_FClassRedirector_Statics
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ObjectClass_MetaData[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OwnerClass_MetaData[] = {
@@ -757,38 +771,60 @@ struct Z_Construct_UClass_UMGC_KeywordDB_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
 		{ "Category", "Synaptech" },
 		{ "ClassGroupNames", "Synaptech" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\n/// MGC Parser Database Classes:\n" },
+#endif
 		{ "IncludePath", "KMGC_KismetTypes.h" },
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MGC Parser Database Classes:" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ScriptCore_MetaData[] = {
 		{ "Category", "Keywords" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* MGC Default Scripting Keywords. */" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MGC Default Scripting Keywords." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Operators_MetaData[] = {
 		{ "Category", "Keywords" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* MGC Default Operator Keywords. */" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MGC Default Operator Keywords." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Processors_MetaData[] = {
 		{ "Category", "Keywords" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* MGC Default Pre-Processor Keywords. */" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MGC Default Pre-Processor Keywords." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Macros_MetaData[] = {
 		{ "Category", "Keywords" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* MGC Default Macro Keywords. */" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MGC Default Macro Keywords." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Extensions_MetaData[] = {
 		{ "Category", "Keywords" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
 	};
 #endif // WITH_METADATA
@@ -888,19 +924,29 @@ struct Z_Construct_UClass_UMGC_ClassDB_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ScriptCore_MetaData[] = {
 		{ "Category", "Keywords" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* MGC Default Scripting Classes. */" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MGC Default Scripting Classes." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ScriptTypes_MetaData[] = {
 		{ "Category", "Keywords" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* MGC Default Type Definitions. */" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MGC Default Type Definitions." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Extensions_MetaData[] = {
 		{ "Category", "Keywords" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
 	};
 #endif // WITH_METADATA
@@ -988,13 +1034,19 @@ struct Z_Construct_UClass_UMGC_FunctionDB_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ScriptCore_MetaData[] = {
 		{ "Category", "Keywords" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* MGC Default Scripting Classes. */" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MGC Default Scripting Classes." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Extensions_MetaData[] = {
 		{ "Category", "Keywords" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//\n" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
 	};
 #endif // WITH_METADATA
@@ -1076,39 +1128,63 @@ struct Z_Construct_UClass_UMGC_SemanticDB_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_KeywordDefinitions_MetaData[] = {
 		{ "Category", "Definitions" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* MGC Default Scripting Keyword Definitions. */" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MGC Default Scripting Keyword Definitions." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TypeDefinitions_MetaData[] = {
 		{ "Category", "Definitions" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* MGC Default Scripting Type Definitions. */" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MGC Default Scripting Type Definitions." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_MacroDefinitions_MetaData[] = {
 		{ "Category", "Definitions" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* MGC Default Scripting Macro Definitions. */" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MGC Default Scripting Macro Definitions." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ClassDefinitions_MetaData[] = {
 		{ "Category", "Definitions" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* MGC Default Scripting Class Definitions. */" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MGC Default Scripting Class Definitions." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_ClassRedirectors_MetaData[] = {
 		{ "Category", "Definitions" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* MGC Default Scripting Map of Instantiated Classes. */" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MGC Default Scripting Map of Instantiated Classes." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Documentation_MetaData[] = {
 		{ "Category", "API Reference" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/* MGC Important Classes' Documentation. */" },
+#endif
 		{ "ModuleRelativePath", "Classes/KMGC_KismetTypes.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MGC Important Classes' Documentation." },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FStructPropertyParams NewProp_KeywordDefinitions_ValueProp;
@@ -1145,12 +1221,12 @@ const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UMGC_SemanticDB_S
 const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UMGC_SemanticDB_Statics::NewProp_MacroDefinitions_ValueProp = { "MacroDefinitions", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FKeywordDefinition, METADATA_PARAMS(0, nullptr) }; // 136643683
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_UMGC_SemanticDB_Statics::NewProp_MacroDefinitions_Key_KeyProp = { "MacroDefinitions_Key", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UMGC_SemanticDB_Statics::NewProp_MacroDefinitions = { "MacroDefinitions", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UMGC_SemanticDB, MacroDefinitions), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MacroDefinitions_MetaData), NewProp_MacroDefinitions_MetaData) }; // 136643683
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UMGC_SemanticDB_Statics::NewProp_ClassDefinitions_ValueProp = { "ClassDefinitions", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FClassDefinition, METADATA_PARAMS(0, nullptr) }; // 2331083934
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UMGC_SemanticDB_Statics::NewProp_ClassDefinitions_ValueProp = { "ClassDefinitions", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FClassDefinition, METADATA_PARAMS(0, nullptr) }; // 3011881454
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_UMGC_SemanticDB_Statics::NewProp_ClassDefinitions_Key_KeyProp = { "ClassDefinitions_Key", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UMGC_SemanticDB_Statics::NewProp_ClassDefinitions = { "ClassDefinitions", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UMGC_SemanticDB, ClassDefinitions), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ClassDefinitions_MetaData), NewProp_ClassDefinitions_MetaData) }; // 2331083934
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UMGC_SemanticDB_Statics::NewProp_ClassRedirectors_ValueProp = { "ClassRedirectors", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FClassRedirector, METADATA_PARAMS(0, nullptr) }; // 112707826
+const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UMGC_SemanticDB_Statics::NewProp_ClassDefinitions = { "ClassDefinitions", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UMGC_SemanticDB, ClassDefinitions), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ClassDefinitions_MetaData), NewProp_ClassDefinitions_MetaData) }; // 3011881454
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_UMGC_SemanticDB_Statics::NewProp_ClassRedirectors_ValueProp = { "ClassRedirectors", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, Z_Construct_UScriptStruct_FClassRedirector, METADATA_PARAMS(0, nullptr) }; // 204660908
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_UMGC_SemanticDB_Statics::NewProp_ClassRedirectors_Key_KeyProp = { "ClassRedirectors_Key", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UMGC_SemanticDB_Statics::NewProp_ClassRedirectors = { "ClassRedirectors", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UMGC_SemanticDB, ClassRedirectors), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ClassRedirectors_MetaData), NewProp_ClassRedirectors_MetaData) }; // 112707826
+const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UMGC_SemanticDB_Statics::NewProp_ClassRedirectors = { "ClassRedirectors", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UMGC_SemanticDB, ClassRedirectors), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ClassRedirectors_MetaData), NewProp_ClassRedirectors_MetaData) }; // 204660908
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_UMGC_SemanticDB_Statics::NewProp_Documentation_ValueProp = { "Documentation", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 1, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FStrPropertyParams Z_Construct_UClass_UMGC_SemanticDB_Statics::NewProp_Documentation_Key_KeyProp = { "Documentation_Key", nullptr, (EPropertyFlags)0x0000000000020001, UECodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FMapPropertyParams Z_Construct_UClass_UMGC_SemanticDB_Statics::NewProp_Documentation = { "Documentation", nullptr, (EPropertyFlags)0x0010000000020001, UECodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(UMGC_SemanticDB, Documentation), EMapPropertyFlags::None, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Documentation_MetaData), NewProp_Documentation_MetaData) };
@@ -1212,7 +1288,7 @@ UMGC_SemanticDB::~UMGC_SemanticDB() {}
 // End Class UMGC_SemanticDB
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_KismetTypes_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_KismetTypes_h_Statics
 {
 	static constexpr FEnumRegisterCompiledInInfo EnumInfo[] = {
 		{ EType_StaticEnum, TEXT("EType"), &Z_Registration_Info_UEnum_EType, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 3310335230U) },
@@ -1222,21 +1298,21 @@ struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTe
 	};
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
 		{ FKeywordDefinition::StaticStruct, Z_Construct_UScriptStruct_FKeywordDefinition_Statics::NewStructOps, TEXT("KeywordDefinition"), &Z_Registration_Info_UScriptStruct_KeywordDefinition, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FKeywordDefinition), 136643683U) },
-		{ FPropertyDefinition::StaticStruct, Z_Construct_UScriptStruct_FPropertyDefinition_Statics::NewStructOps, TEXT("PropertyDefinition"), &Z_Registration_Info_UScriptStruct_PropertyDefinition, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FPropertyDefinition), 1637536480U) },
-		{ FFunctionDefinition::StaticStruct, Z_Construct_UScriptStruct_FFunctionDefinition_Statics::NewStructOps, TEXT("FunctionDefinition"), &Z_Registration_Info_UScriptStruct_FunctionDefinition, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFunctionDefinition), 272213947U) },
-		{ FClassDefinition::StaticStruct, Z_Construct_UScriptStruct_FClassDefinition_Statics::NewStructOps, TEXT("ClassDefinition"), &Z_Registration_Info_UScriptStruct_ClassDefinition, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FClassDefinition), 2331083934U) },
-		{ FClassRedirector::StaticStruct, Z_Construct_UScriptStruct_FClassRedirector_Statics::NewStructOps, TEXT("ClassRedirector"), &Z_Registration_Info_UScriptStruct_ClassRedirector, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FClassRedirector), 112707826U) },
+		{ FPropertyDefinition::StaticStruct, Z_Construct_UScriptStruct_FPropertyDefinition_Statics::NewStructOps, TEXT("PropertyDefinition"), &Z_Registration_Info_UScriptStruct_PropertyDefinition, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FPropertyDefinition), 165694290U) },
+		{ FFunctionDefinition::StaticStruct, Z_Construct_UScriptStruct_FFunctionDefinition_Statics::NewStructOps, TEXT("FunctionDefinition"), &Z_Registration_Info_UScriptStruct_FunctionDefinition, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FFunctionDefinition), 1073733200U) },
+		{ FClassDefinition::StaticStruct, Z_Construct_UScriptStruct_FClassDefinition_Statics::NewStructOps, TEXT("ClassDefinition"), &Z_Registration_Info_UScriptStruct_ClassDefinition, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FClassDefinition), 3011881454U) },
+		{ FClassRedirector::StaticStruct, Z_Construct_UScriptStruct_FClassRedirector_Statics::NewStructOps, TEXT("ClassRedirector"), &Z_Registration_Info_UScriptStruct_ClassRedirector, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FClassRedirector), 204660908U) },
 	};
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UMGC_KeywordDB, UMGC_KeywordDB::StaticClass, TEXT("UMGC_KeywordDB"), &Z_Registration_Info_UClass_UMGC_KeywordDB, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMGC_KeywordDB), 3823738436U) },
-		{ Z_Construct_UClass_UMGC_ClassDB, UMGC_ClassDB::StaticClass, TEXT("UMGC_ClassDB"), &Z_Registration_Info_UClass_UMGC_ClassDB, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMGC_ClassDB), 702482369U) },
-		{ Z_Construct_UClass_UMGC_FunctionDB, UMGC_FunctionDB::StaticClass, TEXT("UMGC_FunctionDB"), &Z_Registration_Info_UClass_UMGC_FunctionDB, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMGC_FunctionDB), 3018020642U) },
-		{ Z_Construct_UClass_UMGC_SemanticDB, UMGC_SemanticDB::StaticClass, TEXT("UMGC_SemanticDB"), &Z_Registration_Info_UClass_UMGC_SemanticDB, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMGC_SemanticDB), 1192687155U) },
+		{ Z_Construct_UClass_UMGC_KeywordDB, UMGC_KeywordDB::StaticClass, TEXT("UMGC_KeywordDB"), &Z_Registration_Info_UClass_UMGC_KeywordDB, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMGC_KeywordDB), 2159745374U) },
+		{ Z_Construct_UClass_UMGC_ClassDB, UMGC_ClassDB::StaticClass, TEXT("UMGC_ClassDB"), &Z_Registration_Info_UClass_UMGC_ClassDB, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMGC_ClassDB), 711782317U) },
+		{ Z_Construct_UClass_UMGC_FunctionDB, UMGC_FunctionDB::StaticClass, TEXT("UMGC_FunctionDB"), &Z_Registration_Info_UClass_UMGC_FunctionDB, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMGC_FunctionDB), 801014353U) },
+		{ Z_Construct_UClass_UMGC_SemanticDB, UMGC_SemanticDB::StaticClass, TEXT("UMGC_SemanticDB"), &Z_Registration_Info_UClass_UMGC_SemanticDB, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMGC_SemanticDB), 1578735192U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_KismetTypes_h_4274774466(TEXT("/Script/MagicNodeKismet"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_KismetTypes_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_KismetTypes_h_Statics::ClassInfo),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_KismetTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_KismetTypes_h_Statics::ScriptStructInfo),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_KismetTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_KismetTypes_h_Statics::EnumInfo));
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_KismetTypes_h_2992573320(TEXT("/Script/MagicNodeKismet"),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_KismetTypes_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_KismetTypes_h_Statics::ClassInfo),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_KismetTypes_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_KismetTypes_h_Statics::ScriptStructInfo),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_KismetTypes_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_KismetTypes_h_Statics::EnumInfo));
 // End Registration
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

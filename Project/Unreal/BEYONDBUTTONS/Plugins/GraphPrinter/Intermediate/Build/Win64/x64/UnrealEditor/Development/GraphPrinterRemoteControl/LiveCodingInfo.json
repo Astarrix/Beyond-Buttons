@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GraphPrinterRemoteControl.cpp.obj": [
+			"GraphPrinterRemoteControl.init.gen.cpp.obj",
+			"GraphPrinterRemoteControlModule.cpp.obj",
+			"GraphPrinterRemoteControlSettings.cpp.obj",
+			"GraphPrinterRemoteControlReceiver.cpp.obj"
+		]
+	}
+}

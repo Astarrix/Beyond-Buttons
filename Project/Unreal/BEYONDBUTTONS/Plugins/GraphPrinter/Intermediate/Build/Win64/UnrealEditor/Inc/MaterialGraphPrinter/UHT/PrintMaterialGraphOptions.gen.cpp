@@ -29,10 +29,14 @@ struct Z_Construct_UClass_UPrintMaterialGraphOptions_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * An optional class to specify when printing the material graph editor.\n */" },
+#endif
 		{ "IncludePath", "MaterialGraphPrinter/Types/PrintMaterialGraphOptions.h" },
 		{ "ModuleRelativePath", "Public/MaterialGraphPrinter/Types/PrintMaterialGraphOptions.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "An optional class to specify when printing the material graph editor." },
+#endif
 	};
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
@@ -78,14 +82,14 @@ UPrintMaterialGraphOptions::~UPrintMaterialGraphOptions() {}
 // End Class UPrintMaterialGraphOptions
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_MaterialGraphPrinter_Public_MaterialGraphPrinter_Types_PrintMaterialGraphOptions_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_MaterialGraphPrinter_Public_MaterialGraphPrinter_Types_PrintMaterialGraphOptions_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UPrintMaterialGraphOptions, UPrintMaterialGraphOptions::StaticClass, TEXT("UPrintMaterialGraphOptions"), &Z_Registration_Info_UClass_UPrintMaterialGraphOptions, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UPrintMaterialGraphOptions), 4114995777U) },
+		{ Z_Construct_UClass_UPrintMaterialGraphOptions, UPrintMaterialGraphOptions::StaticClass, TEXT("UPrintMaterialGraphOptions"), &Z_Registration_Info_UClass_UPrintMaterialGraphOptions, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UPrintMaterialGraphOptions), 3456704715U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_MaterialGraphPrinter_Public_MaterialGraphPrinter_Types_PrintMaterialGraphOptions_h_1459635580(TEXT("/Script/MaterialGraphPrinter"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_MaterialGraphPrinter_Public_MaterialGraphPrinter_Types_PrintMaterialGraphOptions_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_GraphPrinter_Source_MaterialGraphPrinter_Public_MaterialGraphPrinter_Types_PrintMaterialGraphOptions_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_MaterialGraphPrinter_Public_MaterialGraphPrinter_Types_PrintMaterialGraphOptions_h_342955162(TEXT("/Script/MaterialGraphPrinter"),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_MaterialGraphPrinter_Public_MaterialGraphPrinter_Types_PrintMaterialGraphOptions_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_GraphPrinter_Source_MaterialGraphPrinter_Public_MaterialGraphPrinter_Types_PrintMaterialGraphOptions_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

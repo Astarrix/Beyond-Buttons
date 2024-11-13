@@ -1,0 +1,22 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\source\\textchunkhelper\\private\\textchunkhelper\\png\\pngtextchunk.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\coreuobject\\sharedpch.coreuobject.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\textchunkhelper\\definitions.textchunkhelper.h",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\source\\textchunkhelper\\private\\textchunkhelper\\png\\pngtextchunk.h",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\source\\textchunkhelper\\public\\textchunkhelper\\itextchunk.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\thirdparty\\libpng\\libpng-1.5.2\\png.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\thirdparty\\libpng\\libpng-1.5.2\\pnglibconf.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\thirdparty\\libpng\\libpng-1.5.2\\pngconf.h",
+            "c:\\users\\w013321m\\documents\\github\\beyond-buttons\\project\\unreal\\beyondbuttons\\plugins\\graphprinter\\source\\graphprinterglobals\\public\\graphprinterglobals\\graphprinterglobals.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\core\\public\\misc\\engineversioncomparison.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\launch\\resources\\version.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\thirdparty\\libpng\\libpng-1.5.2\\pnginfo.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

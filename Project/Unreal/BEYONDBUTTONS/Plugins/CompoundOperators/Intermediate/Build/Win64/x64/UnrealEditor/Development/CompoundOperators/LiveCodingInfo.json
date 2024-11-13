@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CompoundOperators.cpp.obj": [
+			"CompoundOperators.init.gen.cpp.obj",
+			"CompoundOperatorsBPLibrary.gen.cpp.obj",
+			"CompoundOperators.cpp.obj",
+			"CompoundOperatorsBPLibrary.cpp.obj"
+		]
+	}
+}

@@ -29,7 +29,9 @@ struct Z_Construct_UClass_UKMGC_MagicNode_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\n" },
+#endif
 		{ "IncludePath", "KMGC_MagicNode.h" },
 		{ "ModuleRelativePath", "Classes/KMGC_MagicNode.h" },
 	};
@@ -77,14 +79,14 @@ UKMGC_MagicNode::~UKMGC_MagicNode() {}
 // End Class UKMGC_MagicNode
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_MagicNode_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_MagicNode_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UKMGC_MagicNode, UKMGC_MagicNode::StaticClass, TEXT("UKMGC_MagicNode"), &Z_Registration_Info_UClass_UKMGC_MagicNode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UKMGC_MagicNode), 2046598053U) },
+		{ Z_Construct_UClass_UKMGC_MagicNode, UKMGC_MagicNode::StaticClass, TEXT("UKMGC_MagicNode"), &Z_Registration_Info_UClass_UKMGC_MagicNode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UKMGC_MagicNode), 4063819067U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_MagicNode_h_3784738322(TEXT("/Script/MagicNodeKismet"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_MagicNode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_MagicNode_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_MagicNode_h_3938359726(TEXT("/Script/MagicNodeKismet"),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_MagicNode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeKismet_Classes_KMGC_MagicNode_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

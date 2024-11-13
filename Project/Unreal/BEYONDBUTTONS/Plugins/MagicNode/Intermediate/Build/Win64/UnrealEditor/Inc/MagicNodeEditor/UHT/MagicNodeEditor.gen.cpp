@@ -29,7 +29,9 @@ struct Z_Construct_UClass_UMGC_ScriptFactory_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////\n" },
+#endif
 		{ "IncludePath", "MagicNodeEditor.h" },
 		{ "ModuleRelativePath", "Public/MagicNodeEditor.h" },
 	};
@@ -77,14 +79,14 @@ UMGC_ScriptFactory::~UMGC_ScriptFactory() {}
 // End Class UMGC_ScriptFactory
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeEditor_Public_MagicNodeEditor_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeEditor_Public_MagicNodeEditor_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UMGC_ScriptFactory, UMGC_ScriptFactory::StaticClass, TEXT("UMGC_ScriptFactory"), &Z_Registration_Info_UClass_UMGC_ScriptFactory, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMGC_ScriptFactory), 1850457157U) },
+		{ Z_Construct_UClass_UMGC_ScriptFactory, UMGC_ScriptFactory::StaticClass, TEXT("UMGC_ScriptFactory"), &Z_Registration_Info_UClass_UMGC_ScriptFactory, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UMGC_ScriptFactory), 2812039686U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeEditor_Public_MagicNodeEditor_h_500827049(TEXT("/Script/MagicNodeEditor"),
-	Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeEditor_Public_MagicNodeEditor_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Marketplace_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_MagicNode_Source_MagicNodeEditor_Public_MagicNodeEditor_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeEditor_Public_MagicNodeEditor_h_2308254858(TEXT("/Script/MagicNodeEditor"),
+	Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeEditor_Public_MagicNodeEditor_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_W013321M_Documents_GitHub_Beyond_Buttons_Project_Unreal_BEYONDBUTTONS_Plugins_MagicNode_Source_MagicNodeEditor_Public_MagicNodeEditor_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

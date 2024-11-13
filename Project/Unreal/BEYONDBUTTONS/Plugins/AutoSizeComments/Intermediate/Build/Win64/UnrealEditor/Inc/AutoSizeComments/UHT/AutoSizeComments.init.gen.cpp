@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeAutoSizeComments_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000040,
-				0x0591145C,
+				0x76B2C51A,
 				0xE0834125,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeAutoSizeComments_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_AutoSizeComments.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_AutoSizeComments(Z_Construct_UPackage__Script_AutoSizeComments, TEXT("/Script/AutoSizeComments"), Z_Registration_Info_UPackage__Script_AutoSizeComments, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x0591145C, 0xE0834125));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_AutoSizeComments(Z_Construct_UPackage__Script_AutoSizeComments, TEXT("/Script/AutoSizeComments"), Z_Registration_Info_UPackage__Script_AutoSizeComments, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x76B2C51A, 0xE0834125));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
