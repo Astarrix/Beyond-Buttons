@@ -1,6 +1,0 @@
-{
-	"OutputFiles": [
-		"..\\..\\..\\x64\\UnrealGame\\Shipping\\MagicNodeRuntime\\PCH.MagicNodeRuntime.h.obj",
-		"..\\..\\..\\x64\\UnrealGame\\Shipping\\MagicNodeRuntime\\Module.MagicNodeRuntime.cpp.obj"
-	]
-}

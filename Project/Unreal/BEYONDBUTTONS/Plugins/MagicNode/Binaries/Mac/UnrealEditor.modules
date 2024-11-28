@@ -1,9 +1,0 @@
-{
-	"BuildId": "33043543",
-	"Modules": 
-	{
-		"MagicNodeEditor": "UnrealEditor-MagicNodeEditor.dylib",
-		"MagicNodeKismet": "UnrealEditor-MagicNodeKismet.dylib",
-		"MagicNodeRuntime": "UnrealEditor-MagicNodeRuntime.dylib"
-	}
-}

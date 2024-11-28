@@ -1,27 +1,13 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\AutoSizeComments\\Source\\AutoSizeComments\\AutoSizeComments.Build.cs",
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\BlueprintAssist\\Source\\BlueprintAssist\\BlueprintAssist.Build.cs",
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\CompoundOperators\\Source\\CompoundOperators\\CompoundOperators.Build.cs",
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\DarkerNodes\\Source\\DarkerNodes\\DarkerNodes.Build.cs",
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\ElectronicNodes\\Source\\ElectronicNodes\\ElectronicNodes.Build.cs",
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\ExtraWinFunction\\Source\\ExtraWinFunction\\ExtraWinFunction.Build.cs",
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\GraphPrinter\\Source\\ClipboardImageExtension\\ClipboardImageExtension.Build.cs",
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\GraphPrinter\\Source\\DetailsPanelPrinter\\DetailsPanelPrinter.Build.cs",
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\GraphPrinter\\Source\\GenericGraphPrinter\\GenericGraphPrinter.Build.cs",
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\GraphPrinter\\Source\\GraphPrinterEditorExtension\\GraphPrinterEditorExtension.Build.cs",
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\GraphPrinter\\Source\\GraphPrinterGlobals\\GraphPrinterGlobals.Build.cs",
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\GraphPrinter\\Source\\GraphPrinterRemoteControl\\GraphPrinterRemoteControl.Build.cs",
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\GraphPrinter\\Source\\GraphPrinterStreamDeck\\GraphPrinterStreamDeck.Build.cs",
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\GraphPrinter\\Source\\MaterialGraphPrinter\\MaterialGraphPrinter.Build.cs",
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\GraphPrinter\\Source\\ReferenceViewerPrinter\\ReferenceViewerPrinter.Build.cs",
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\GraphPrinter\\Source\\TextChunkHelper\\TextChunkHelper.Build.cs",
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\GraphPrinter\\Source\\ViewportPrinter\\ViewportPrinter.Build.cs",
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\GraphPrinter\\Source\\WidgetPrinter\\WidgetPrinter.Build.cs",
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\MagicNode\\Source\\MagicNodeEditor\\MagicNodeEditor.Build.cs",
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\MagicNode\\Source\\MagicNodeKismet\\MagicNodeKismet.Build.cs",
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\MagicNode\\Source\\MagicNodeRuntime\\MagicNodeRuntime.Build.cs",
-		"C:\\Users\\W013321M\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\SerialCOM_5_UE542\\SerialCOM\\Source\\SERIALCOM\\SERIALCOM.Build.cs"
+		"C:\\Users\\alexw\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\JoystickPlugin-master\\Source\\JoystickPluginEditor\\JoystickPluginEditor.Build.cs",
+		"C:\\Users\\alexw\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\JoystickPlugin-master\\Source\\JoystickPlugin\\JoystickPlugin.Build.cs",
+		"C:\\Users\\alexw\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Plugins\\SerialCOM_5_UE544\\SerialCOM\\Source\\SERIALCOM\\SERIALCOM.Build.cs",
+		"C:\\Users\\alexw\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Intermediate\\Source\\BEYONDBUTTONS.Build.cs",
+		"C:\\Users\\alexw\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Intermediate\\Source\\BEYONDBUTTONS.Target.cs",
+		"C:\\Users\\alexw\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Intermediate\\Source\\BEYONDBUTTONSClient.Target.cs",
+		"C:\\Users\\alexw\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Intermediate\\Source\\BEYONDBUTTONSEditor.Target.cs",
+		"C:\\Users\\alexw\\Documents\\GitHub\\Beyond-Buttons\\Project\\Unreal\\BEYONDBUTTONS\\Intermediate\\Source\\BEYONDBUTTONSServer.Target.cs"
 	],
 	"EngineVersion": "5.4.4"
 }
