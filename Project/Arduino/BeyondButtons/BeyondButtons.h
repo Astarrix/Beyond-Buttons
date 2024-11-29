@@ -13,39 +13,34 @@
 bool bCONNECTED = false;
 byte segNums[] = { 0xc0, 0xf9, 0xa4, 0xb0, 0x99, 0x92, 0x82, 0xf8,    //0-7
                    0x80, 0x90, 0x88, 0x83, 0xc6, 0xa1, 0x86, 0x8e };  //8-F
-int bombTime = 10;
 int gameStartTime;
 bool gameSetup = false;
-bool hasExploded = false;
+int SSEG_Time = -1;
 
 //PIN Definitions
 
 // 1
-// 2
-#define PRINTER_TX_PIN 3    // Arduino transmit - labeled RX on printer // NON-MANDATORY
-// 4
-// 5
-#define PWM_LED 6 // MANDATORY
-#define BUZZER_PIN 7 // MANDATORY
+#define BTN_Yellow 2
+#define BTN_Blue 3
+#define BTN_Green 4
+#define BTN_Red 5
+#define PWM_LED 6     // MANDATORY
+#define BUZZER_PIN 7  // MANDATORY
 // 8
 // 9
-// 10
-#define SSEG_DATA_PIN 11
-#define SSEG_LATCH_PIN 12
-#define SSEG_CLOCK_PIN 13
+#define PRINTER_TX_PIN 10  // Arduino transmit - labeled RX on printer // NON-MANDATORY
+#define SSEG_DATA_PIN 11   // MANDATORY
+#define SSEG_LATCH_PIN 12  // MANDATORY
+#define SSEG_CLOCK_PIN 13  // MANDATORY
 
 //VARIABLE Definitions
 #define BAUDRATE 9600
 #define HANDSHAKEOUT "HANDSHAKEARD"    // What Arduino Sends for Unreal Engine to Recieve
 #define HANDSHAKERETURN "HANDSHAKEUE"  // What Arduino is Expecting to recieve
 #define TERMINATEKEY "TERMINATE"       // The String required to disconnect
-#define WARNINGTIME 5                  // Seconds remaining for bomb timer beeper
 #define AUDIO_ACTIVE true
 #define DEBUG_ACTIVE false
 
-//Macros
-#define m_GameTimeSeconds ((millis() - gameStartTime) / 1000)  // Only works AFTER handshake
-#define m_BombTimerRemaining (bombTime - m_GameTimeSeconds)    // Only works AFTER handshake
 
 //Conditional Macros
 #if DEBUGACTIVE == true
@@ -58,7 +53,7 @@ bool hasExploded = false;
 
 //Class Setups
 SoftwareSerial PrinterSerial(99, PRINTER_TX_PIN);  // Declare SoftwareSerial obj first
-Adafruit_Thermal printer(&PrinterSerial);      // Pass addr to printer constructor
+Adafruit_Thermal printer(&PrinterSerial);          // Pass addr to printer constructor
 
 
 /*!
@@ -93,7 +88,7 @@ void RawInitPrinter();
 /*!
 * @brief Switch statement basically that calls sub functions using the input code, this handles the formatting into function params
 */
-void HandleInput();
+void RecieveInput();
 
 /*!
 * @brief Initialises pins for use 

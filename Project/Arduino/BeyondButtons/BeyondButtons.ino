@@ -24,7 +24,7 @@ void InitPins() {
 }
 
 void loop() {
-  while (!bCONNECTED) {
+  while (!bCONNECTED) {  // HANDSHAKE
     if (Serial.available() > 0) {
       String _read = Serial.readString();
       _read.trim();
@@ -33,59 +33,68 @@ void loop() {
       }
     }
   }
+
   if (!gameSetup) {
     GameSetup();
   }
-  HandleInput();
-  if (!hasExploded) {
-    if (m_BombTimerRemaining > 0) {
-      ShowCount(m_BombTimerRemaining);
-      if (((millis() / 100) % 10 == 0) && m_BombTimerRemaining < WARNINGTIME) {
-        BeepBuzzer(AUDIO_ACTIVE);
-      }
-    } else {
-      hasExploded = true;
-      BeepBuzzer(AUDIO_ACTIVE);
-    }
-  } else {
-    ShowCount(0);
-  }
+
+  SendInputs();
+  RecieveInput();
+  DisplayVisuals();
 }
 
 void GameSetup() {
   gameSetup = true;
-  hasExploded = false;
   gameStartTime = millis();
 }
 
-void HandleInput() {
-  String _read;
+void RecieveInput() {
+  String _read = "";
   if (Serial.available() > 0) {
     _read = Serial.readString();
     _read.trim();
   }
-
-  switch (char(_read[0])) {                                   // switch on first character of received string
-    case 'p':                                                 // printer commands
-      _read.remove(0, 1);                                     // removes command key
-      byte formatting = byte(_read.substring(0, 2).toInt());  // first two characters after p command dictate formatting using bit shifting - 0-63
-      String text = _read.substring(2);
-      PrintOnPrinter(formatting, text);
-      break;
-    case 'c':              // general commands
-      _read.remove(0, 1);  // removes command key
-      if (_read.equals(TERMINATEKEY)) {
-        bCONNECTED = false;
-        setup();
-      }
-      break;
-    default:
-
-      break;
+  if (!_read.equals("")) {
+    char commandChar = char(_read[0]);  // switch on first character of received string
+    switch (commandChar) {
+      case 'p':  // printer commands
+        {
+          _read.remove(0, 1);                                     // removes command key
+          byte formatting = byte(_read.substring(0, 2).toInt());  // first two characters after p command dictate formatting using bit shifting - 0-63
+          String text = _read.substring(2);                       // get the text that wants printing (everything after the 2nd index)
+          PrintOnPrinter(formatting, text);
+          break;
+        }
+      case 'c':  // general commands
+        {
+          _read.remove(0, 1);                // removes command key
+          if (_read.equals(TERMINATEKEY)) {  // terminate game, disconnect
+            bCONNECTED = false;
+            setup();
+          }
+          break;
+        }
+      case 't':  // Timer Commands - Format = t100 (100 to be displayed on timer)
+        {
+          _read.remove(0, 1);         // removes command key
+          SSEG_Time = _read.toInt();  // saves time to int that is read into SSEG on tick
+          break;
+        }
+      case 'b':  // buzzer commands - Format = b
+        {
+          _read.remove(0, 1);  // removes command key
+          BeepBuzzer(AUDIO_ACTIVE);
+          break;
+        }
+      default:
+        {
+          Serial.println("INVALID COMMAND");
+          break;
+        }
+    }
+    _read = "";
   }
 }
-
-
 
 void DigitalTube_MSBFIRST(int position, byte value) {
   digitalWrite(SSEG_LATCH_PIN, LOW);
@@ -94,15 +103,40 @@ void DigitalTube_MSBFIRST(int position, byte value) {
   digitalWrite(SSEG_LATCH_PIN, HIGH);
 }
 
+void SendInputs() {
+  int PackagedData = 0;
+  if (!digitalRead(BTN_Yellow)) { bitSet(PackagedData, 0); }
+  if (!digitalRead(BTN_Blue)) { bitSet(PackagedData, 1); }
+  if (!digitalRead(BTN_Green)) { bitSet(PackagedData, 2); }
+  if (!digitalRead(BTN_Red)) { bitSet(PackagedData, 3); }
+  if (1 != 0) { Serial.println("b" + String(PackagedData)); };
+}
+
 void ShowCount(int value) {
   DigitalTube_MSBFIRST(0, segNums[value % 10000 / 1000]);
-  delay(1);
+  //delay(1);
   DigitalTube_MSBFIRST(1, segNums[value % 1000 / 100]);
-  delay(1);
+  //delay(1);
   DigitalTube_MSBFIRST(2, segNums[value % 100 / 10]);
-  delay(1);
+  //delay(1);
   DigitalTube_MSBFIRST(3, segNums[value % 10]);
-  delay(1);
+  //delay(1);
+}
+
+void DisplayVisuals() {
+  if (SSEG_Time > -1) {
+    ShowCount(SSEG_Time);
+  } else if (SSEG_Time = -1) {
+    DigitalTube_MSBFIRST(0, 0);
+    delay(1);
+    DigitalTube_MSBFIRST(1, 0);
+    delay(1);
+    DigitalTube_MSBFIRST(2, 0);
+    delay(1);
+    DigitalTube_MSBFIRST(3, 0);
+    delay(1);
+    SSEG_Time = -2;
+  }
 }
 
 void BeepBuzzer(bool isLoud) {
