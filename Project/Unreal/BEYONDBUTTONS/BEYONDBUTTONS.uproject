@@ -59,6 +59,14 @@
 		{
 			"Name": "SERIALCOM",
 			"Enabled": true
+		},
+		{
+			"Name": "BlueprintFileUtils",
+			"Enabled": true
+		},
+		{
+			"Name": "AdvancedRenamer",
+			"Enabled": true
 		}
 	]
 }
