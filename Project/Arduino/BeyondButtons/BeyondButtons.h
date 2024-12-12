@@ -40,7 +40,7 @@ int SSEG_Time = -1;
 #define TERMINATEKEY "TERMINATE"       // The String required to disconnect
 #define AUDIO_ACTIVE true
 #define DEBUG_ACTIVE false
-
+#define FORCEINPUTS true
 
 //Conditional Macros
 #if DEBUGACTIVE == true

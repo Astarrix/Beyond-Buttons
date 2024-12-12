@@ -24,12 +24,13 @@ void InitPins() {
 }
 
 void loop() {
-  while (!bCONNECTED) {  // HANDSHAKE
-    if (Serial.available() > 0) {
-      String _read = Serial.readString();
-      _read.trim();
-      if (_read == String(HANDSHAKERETURN) && bCONNECTED == false) {
-        bCONNECTED = true;
+  while (!bCONNECTED) {                                               // HANDSHAKE
+    if (Serial.available() > 0) {                                     // Is something on the serial waiting to be read
+      String _read = Serial.readString();                             // read it in
+      _read.trim();                                                   // clear any whitespace & CR-LF
+      BeepBuzzer(true);
+      if (_read == String(HANDSHAKERETURN) && bCONNECTED == false) {  // if its the handshake string (removes noise)
+        bCONNECTED = true;                                            // proceed with main code
       }
     }
   }
@@ -38,9 +39,8 @@ void loop() {
     GameSetup();
   }
 
-  SendInputs();
-  RecieveInput();
-  DisplayVisuals();
+  RecieveInput();    // recieves data from UE
+  DisplayVisuals();  // for 7SEG display
 }
 
 void GameSetup() {
@@ -48,11 +48,12 @@ void GameSetup() {
   gameStartTime = millis();
 }
 
-void RecieveInput() {
+void RecieveInput() {  // takes in strings and uses the first character as the type of command, and then uses the rest of the string as params
   String _read = "";
   if (Serial.available() > 0) {
     _read = Serial.readString();
     _read.trim();
+    BeepBuzzer(true);
   }
   if (!_read.equals("")) {
     char commandChar = char(_read[0]);  // switch on first character of received string
@@ -82,8 +83,14 @@ void RecieveInput() {
         }
       case 'b':  // buzzer commands - Format = b
         {
-          _read.remove(0, 1);  // removes command key
+          //_read.remove(0, 1);  // removes command key
           BeepBuzzer(AUDIO_ACTIVE);
+          break;
+        }
+      case 'i': //sends inputs on request
+        {
+          //_read.remove(0, 1);
+          SendInputs();  // sends current button data
           break;
         }
       default:
@@ -109,10 +116,12 @@ void SendInputs() {
   if (!digitalRead(BTN_Blue)) { bitSet(PackagedData, 1); }
   if (!digitalRead(BTN_Green)) { bitSet(PackagedData, 2); }
   if (!digitalRead(BTN_Red)) { bitSet(PackagedData, 3); }
-  if (1 != 0) { Serial.println("b" + String(PackagedData)); };
+  String Str_Pack = String(PackagedData);
+  Str_Pack.trim();
+  if (PackagedData != 0 || FORCEINPUTS) { Serial.println("b" + Str_Pack); };
 }
 
-void ShowCount(int value) {
+void ShowCount(int value) {  // Most Significant Bit first bit shifting written into buffer
   DigitalTube_MSBFIRST(0, segNums[value % 10000 / 1000]);
   //delay(1);
   DigitalTube_MSBFIRST(1, segNums[value % 1000 / 100]);
