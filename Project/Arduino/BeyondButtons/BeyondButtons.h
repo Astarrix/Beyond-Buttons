@@ -11,19 +11,18 @@
 
 // Global Variables
 bool bCONNECTED = false;
-byte segNums[] = { 0xc0, 0xf9, 0xa4, 0xb0, 0x99, 0x92, 0x82, 0xf8,    //0-7
-                   0x80, 0x90, 0x88, 0x83, 0xc6, 0xa1, 0x86, 0x8e };  //8-F
-int gameStartTime;
-bool gameSetup = false;
 int SSEG_Time = -1;
 
-//PIN Definitions
+// Global Constants
+const byte segNums[] = { 0xc0, 0xf9, 0xa4, 0xb0, 0x99, 0x92, 0x82, 0xf8,    //0-7
+                         0x80, 0x90, 0x88, 0x83, 0xc6, 0xa1, 0x86, 0x8e };  //8-F
 
+//PIN Definitions
 // 1
-#define BTN_Yellow 2
-#define BTN_Blue 3
-#define BTN_Green 4
-#define BTN_Red 5
+#define BTN_Yellow 2  // MANDATORY
+#define BTN_Blue 3    // MANDATORY
+#define BTN_Green 4   // MANDATORY
+#define BTN_Red 5     // MANDATORY
 #define PWM_LED 6     // MANDATORY
 #define BUZZER_PIN 7  // MANDATORY
 // 8
@@ -40,7 +39,6 @@ int SSEG_Time = -1;
 #define TERMINATEKEY "TERMINATE"       // The String required to disconnect
 #define AUDIO_ACTIVE true
 #define DEBUG_ACTIVE false
-#define FORCEINPUTS true
 
 //Conditional Macros
 #if DEBUGACTIVE == true
