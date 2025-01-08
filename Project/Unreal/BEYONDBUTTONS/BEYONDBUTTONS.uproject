@@ -22,11 +22,6 @@
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/9e895371fa3a471c87337860d6f341ff"
 		},
 		{
-			"Name": "GraphPrinter",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/466303b6cd724968b3ee0a1a1b623f4b"
-		},
-		{
 			"Name": "AutoSizeComments",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/ae89a2c4ab384de0a3f213b23de324f3"
@@ -57,16 +52,21 @@
 			"Enabled": true
 		},
 		{
-			"Name": "SERIALCOM",
-			"Enabled": true
-		},
-		{
 			"Name": "BlueprintFileUtils",
 			"Enabled": true
 		},
 		{
 			"Name": "AdvancedRenamer",
 			"Enabled": true
+		},
+		{
+			"Name": "SERIALCOM",
+			"Enabled": true
+		},
+		{
+			"Name": "RyHelpfulHelpers",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/25653d83f1f84775b09ed750659f9ca3"
 		}
 	]
 }
