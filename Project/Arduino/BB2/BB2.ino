@@ -4,19 +4,18 @@ void setup() {
   Serial.begin(BAUDRATE);
   while (!Serial) {}  // Makes sure serial port is initialised and open
 
-  initPins();
+  Pins_Init();
   LCD_Init();
+  RFID_Init();
   Serial.println(HANDSHAKE_OUT);
 }
 
-void initPins() {
-  pinMode(pKEYSWITCH, INPUT);
+void Pins_Init() {
+  pinMode(INPUT_KEYSWITCH, INPUT);
 }
 
-
-
 void loop() {
-  while (!UEConnected) {
+  while (!UEConnected) {  // HANDSHAKE LOOP
     if (Serial.available() > 0) {
       String _read = Serial.readStringUntil('\n');
       _read.trim();
@@ -26,11 +25,10 @@ void loop() {
       }
     }
   }
-  if (digitalRead(pKEYSWITCH)) {
-    RecieveInput();
-  } else {
-    if (Serial.available() > 0) { Serial.read(); }
-  }
+
+  RecieveInput();  // Recieve input from the serial port
+  RFID_Read();     // check for anything on the RFID reader
+  PollOutputs();   // check for any pushed buttons
 }
 
 void RecieveInput() {
@@ -93,4 +91,58 @@ void LCD_Init() {
   lcd.clear();
   lcd.cursor_on();
   lcd.blink_on();
+}
+
+void RFID_Init() {
+  SPI.begin();
+  rfid.PCD_Init(RFID_SDA_PIN, RFID_RESET_PIN);
+
+  for (byte i = 0; i < 6; i++) {
+    RFID_key.keyByte[i] = 0xFF;
+  }
+}
+
+void RFID_Read() {
+  if (rfid.PICC_IsNewCardPresent())  // RFID Card Detected
+  {
+    if (rfid.PICC_ReadCardSerial()) {  // Can RFID be read
+
+      // Check is the PICC of Classic MIFARE type
+      MFRC522::PICC_Type piccType = rfid.PICC_GetType(rfid.uid.sak);
+      if (!(piccType != MFRC522::PICC_TYPE_MIFARE_MINI && piccType != MFRC522::PICC_TYPE_MIFARE_1K && piccType != MFRC522::PICC_TYPE_MIFARE_4K)) {  // Is RFID Type a readable one (usually yes)
+
+        // Store NUID into nuidPICC
+        byte nuidPICC[4];
+        for (byte i = 0; i < 4; i++) {
+          nuidPICC[i] = rfid.uid.uidByte[i];
+        }
+
+        //Print out detected RFID UID
+        Serial.print("The NUID tag is: ");
+        printByteBufferAsHex(rfid.uid.uidByte, rfid.uid.size);
+
+        // End reading the RFID
+        rfid.PICC_HaltA();       // Stops attempting to read the data
+        rfid.PCD_StopCrypto1();  // Stops binding to previously read card
+
+      } else {  // RFID Type was not a readable one
+        Serial.println(F("RFID_ERROR: NOT MIFARE TYPE"));
+      }
+    }
+  }
+}
+
+void printByteBufferAsHex(byte *buffer, byte bufferSize) {
+  for (byte i = 0; i < bufferSize; i++) {
+    Serial.print(buffer[i] < 0x10 ? "0" : "");
+    Serial.print(buffer[i], HEX);
+  }
+  Serial.println();
+}
+
+void PollOutputs() {
+  char _key = KP_keypad.getKey();
+  if (_key) {
+    Serial.println(_key);
+  }
 }
