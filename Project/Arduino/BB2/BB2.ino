@@ -12,6 +12,15 @@ void setup() {
 
 void Pins_Init() {
   pinMode(INPUT_KEYSWITCH, INPUT);
+  KP_keypad.pin_mode(KP_ROW_1, INPUT);
+  KP_keypad.pin_mode(KP_ROW_2, INPUT);
+  KP_keypad.pin_mode(KP_ROW_3, INPUT);
+  KP_keypad.pin_mode(KP_ROW_4, INPUT);
+  KP_keypad.pin_mode(KP_COL_1, INPUT);
+  KP_keypad.pin_mode(KP_COL_2, INPUT);
+  KP_keypad.pin_mode(KP_COL_3, INPUT);
+  KP_keypad.pin_mode(KP_COL_4, INPUT);
+  
 }
 
 void loop() {
@@ -111,23 +120,15 @@ void RFID_Read() {
       MFRC522::PICC_Type piccType = rfid.PICC_GetType(rfid.uid.sak);
       if (!(piccType != MFRC522::PICC_TYPE_MIFARE_MINI && piccType != MFRC522::PICC_TYPE_MIFARE_1K && piccType != MFRC522::PICC_TYPE_MIFARE_4K)) {  // Is RFID Type a readable one (usually yes)
 
-        // Store NUID into nuidPICC
-        byte nuidPICC[4];
-        for (byte i = 0; i < 4; i++) {
-          nuidPICC[i] = rfid.uid.uidByte[i];
-        }
-
         //Print out detected RFID UID
-        Serial.print("The NUID tag is: ");
+        Serial.print("R-");
         printByteBufferAsHex(rfid.uid.uidByte, rfid.uid.size);
-
-        // End reading the RFID
-        rfid.PICC_HaltA();       // Stops attempting to read the data
-        rfid.PCD_StopCrypto1();  // Stops binding to previously read card
 
       } else {  // RFID Type was not a readable one
         Serial.println(F("RFID_ERROR: NOT MIFARE TYPE"));
       }
+      rfid.PICC_HaltA();       // Stops attempting to read the data
+      rfid.PCD_StopCrypto1();  // Stops binding to previously read card
     }
   }
 }
@@ -143,6 +144,7 @@ void printByteBufferAsHex(byte *buffer, byte bufferSize) {
 void PollOutputs() {
   char _key = KP_keypad.getKey();
   if (_key) {
+    Serial.print("K-");
     Serial.println(_key);
   }
 }

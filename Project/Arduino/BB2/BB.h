@@ -17,23 +17,31 @@
 #define INPUT_KEYSWITCH 13
 #define RFID_SDA_PIN 53
 #define RFID_RESET_PIN 49
-#define KP_ROW_1 9
-#define KP_ROW_2 8
-#define KP_ROW_3 7
-#define KP_ROW_4 6
-#define KP_COL_1 5
-#define KP_COL_2 4
-#define KP_COL_3 3
-#define KP_COL_4 2
+#define RFID_MOSI 51
+#define RFID_MISO 50
+#define RFID_SCK 52
+
+//ROW = YELLOW
+//COL = BLUE
+#define KP_ROW_1 37
+#define KP_ROW_2 35
+#define KP_ROW_3 33
+#define KP_ROW_4 31
+#define KP_COL_1 29
+#define KP_COL_2 27
+#define KP_COL_3 25
+#define KP_COL_4 23
 
 //VARIABLE DEFINITIONS
-#define BAUDRATE 9600
+#define BAUDRATE 115200
 #define HANDSHAKE_OUT "HANDSHAKEARD"
 #define HANDSHAKE_RETURN "HANDSHAKEUE"
 
 //CONSTANTS
 const byte KP_ROWS = 4;  //four rows
 const byte KP_COLS = 4;  //four columns
+
+
 const char KP_Keys[KP_ROWS][KP_COLS] = {
   { '1', '2', '3', 'A' },
   { '4', '5', '6', 'B' },
@@ -50,8 +58,8 @@ byte KP_colPins[KP_COLS] = { KP_COL_1, KP_COL_2, KP_COL_3, KP_COL_4 };  //connec
 
 
 //CLASS SETUPS
-LiquidCrystal_I2C lcd(0x27, LCD_COLS, LCD_ROWS);          // LCD2004 (i2C ADDRESS, COLS, ROWS)
-MFRC522 rfid(RFID_SDA_PIN, RFID_RESET_PIN);  // Instance of the class
+LiquidCrystal_I2C lcd(0x27, LCD_COLS, LCD_ROWS);  // LCD2004 (i2C ADDRESS, COLS, ROWS)
+MFRC522 rfid(RFID_SDA_PIN, RFID_RESET_PIN);       // Instance of the class
 MFRC522::MIFARE_Key RFID_key;
 Keypad KP_keypad = Keypad(makeKeymap(KP_Keys), KP_rowPins, KP_colPins, KP_ROWS, KP_COLS);
 
