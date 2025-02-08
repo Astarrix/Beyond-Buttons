@@ -6,6 +6,7 @@ void setup() {
 
   Pins_Init();
   LCD_Init();
+  ToggleLCDActive(!digitalRead(KS_4));
   RFID_Init();
   Serial.println(HANDSHAKE_OUT);
 }
@@ -20,7 +21,10 @@ void Pins_Init() {
   KP_keypad.pin_mode(KP_COL_2, INPUT);
   KP_keypad.pin_mode(KP_COL_3, INPUT);
   KP_keypad.pin_mode(KP_COL_4, INPUT);
-  
+  pinMode(KS_4, INPUT_PULLUP);
+  pinMode(KS_3, INPUT_PULLUP);
+  pinMode(KS_2, INPUT_PULLUP);
+  pinMode(KS_1, INPUT_PULLUP);
 }
 
 void loop() {
@@ -38,6 +42,8 @@ void loop() {
   RecieveInput();  // Recieve input from the serial port
   RFID_Read();     // check for anything on the RFID reader
   PollOutputs();   // check for any pushed buttons
+  //Serial.println("1: " + String(!digitalRead(KS_0)));
+  //Serial.println("2: " + String(!digitalRead(KS_1)));
 }
 
 void RecieveInput() {
@@ -54,8 +60,11 @@ void RecieveInput() {
         {
           int _LCDFormatting = _read.substring(0, 2).toInt();
           _read.remove(0, 2);
-          LCD_Formatting(_LCDFormatting);
-          LCD_WriteLine(_LCDFormatting >> 3, _read);
+          if (!digitalRead(KS_4)) {
+            LCD_Formatting(_LCDFormatting);
+            LCD_WriteLine(_LCDFormatting >> 3, _read);
+          }
+
           break;
         }
     }
@@ -146,5 +155,36 @@ void PollOutputs() {
   if (_key) {
     Serial.print("K-");
     Serial.println(_key);
+  }
+
+  if (bitRead(KS_States, 4) != !digitalRead(KS_4)) {
+    KeySwitch(4, !digitalRead(KS_4));
+    ToggleLCDActive(!digitalRead(KS_4));
+  }
+  if (bitRead(KS_States, 3) != !digitalRead(KS_3)) {
+    KeySwitch(3, !digitalRead(KS_3));
+  }
+  if (bitRead(KS_States, 2) != !digitalRead(KS_2)) {
+    KeySwitch(2, !digitalRead(KS_2));
+  }
+  if (bitRead(KS_States, 1) != !digitalRead(KS_1)) {
+    KeySwitch(1, !digitalRead(KS_1));
+  }
+}
+
+void KeySwitch(int ID, bool isActive) {
+  bitWrite(KS_States, ID, isActive);
+  Serial.print("S-" + String(ID) + ":");
+  Serial.println(isActive);
+}
+
+void ToggleLCDActive(bool isActive) {
+  if (isActive) {
+    lcd.backlight();
+  } else {
+    lcd.noBacklight();
+    lcd.clear();
+    lcd.noCursor();
+    lcd.noBlink();
   }
 }

@@ -20,9 +20,6 @@
 #define RFID_MOSI 51
 #define RFID_MISO 50
 #define RFID_SCK 52
-
-//ROW = YELLOW
-//COL = BLUE
 #define KP_ROW_1 37
 #define KP_ROW_2 35
 #define KP_ROW_3 33
@@ -31,6 +28,10 @@
 #define KP_COL_2 27
 #define KP_COL_3 25
 #define KP_COL_4 23
+#define KS_4 2 // COMMUNICATIONS 
+#define KS_3 3 // THRUSTERS
+#define KS_2 4 // TARGETTING MODULE
+#define KS_1 5 //
 
 //VARIABLE DEFINITIONS
 #define BAUDRATE 115200
@@ -55,7 +56,7 @@ const int LCD_ROWS = 4;
 bool UEConnected = false;
 byte KP_rowPins[KP_ROWS] = { KP_ROW_1, KP_ROW_2, KP_ROW_3, KP_ROW_4 };  //connect to the row pinouts of the keypad
 byte KP_colPins[KP_COLS] = { KP_COL_1, KP_COL_2, KP_COL_3, KP_COL_4 };  //connect to the column pinouts of the keypad
-
+int KS_States = 0;
 
 //CLASS SETUPS
 LiquidCrystal_I2C lcd(0x27, LCD_COLS, LCD_ROWS);  // LCD2004 (i2C ADDRESS, COLS, ROWS)
