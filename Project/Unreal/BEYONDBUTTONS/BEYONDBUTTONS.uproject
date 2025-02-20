@@ -67,6 +67,20 @@
 			"Name": "RyHelpfulHelpers",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/25653d83f1f84775b09ed750659f9ca3"
+		},
+		{
+			"Name": "BlueprintScreenshotTool",
+			"Enabled": true
+		},
+		{
+			"Name": "DarkerNodes",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/4b3441f0228a40ec9ca986489a5bd682"
+		},
+		{
+			"Name": "RenameTool",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/c6e227383f754209ab1eeb294aa0f6d6"
 		}
 	]
 }
